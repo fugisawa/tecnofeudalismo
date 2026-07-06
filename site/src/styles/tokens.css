@@ -1,0 +1,100 @@
+/* ============================================================
+   TECNOFEUDALISMO — Design tokens · direção "Arquivo"
+   Dossiê desclassificado: near-black quente + bone + carimbo vermelho.
+   Nada de Inter/Roboto, nada de gradiente roxo. Editorial, investigativo.
+   ============================================================ */
+
+:root {
+  /* ---- Tinta e papel (base quente, não #000/#fff) ---- */
+  --ink-950: #0b0a08; /* fundo mais profundo (vinheta) */
+  --ink-900: #100e0b; /* fundo base da página */
+  --ink-850: #16130e; /* superfícies elevadas / cards */
+  --ink-800: #1d1913; /* superfícies mais altas */
+  --ink-700: #272219; /* bordas sólidas / hovers */
+
+  --bone: #ece4d2; /* texto primário (parchment) */
+  --bone-dim: #b6ac93; /* texto secundário */
+  --bone-faint: #857c65; /* legendas, metadados */
+  --bone-ghost: #55503f; /* placeholders, marcas d'água */
+
+  /* ---- Acentos ---- */
+  --signal: #d6482f; /* carimbo/alarme — vermelho de dossiê */
+  --signal-bright: #ec5b3f; /* hover / ênfase */
+  --signal-deep: #7f2417; /* fundos de destaque */
+  --amber: #c8964f; /* institucional/ouro — links, estrutura */
+  --amber-bright: #e0ac60;
+
+  /* ---- Tags epistêmicas (funcionais, calibradas à paleta) ---- */
+  --c-confirmado: #86ab6c; /* verde sálvia */
+  --c-reportado: #6f9bc0; /* azul aço */
+  --c-estimado: #c8964f; /* âmbar */
+  --c-contestado: #d6482f; /* vermelho sinal */
+  --c-naocorroborado: #8a8069; /* cinza */
+
+  /* ---- Tipos de vínculo do grafo (herda mapa-rede.tsx, recalibrado) ---- */
+  --edge-financeira: #c8964f;
+  --edge-propriedade: #ece4d2;
+  --edge-ideologica: #b07fc0;
+  --edge-uso: #6f9bc0;
+  --edge-cia: #d6482f;
+  --edge-critica: #86ab6c;
+  --edge-brasil: #4fb0a0;
+
+  /* ---- Linhas e sombras ---- */
+  --rule: rgba(236, 228, 210, 0.13);
+  --rule-strong: rgba(236, 228, 210, 0.26);
+  --rule-signal: rgba(214, 72, 47, 0.55);
+  --shadow-card: 0 1px 0 rgba(236, 228, 210, 0.04),
+    0 18px 40px -24px rgba(0, 0, 0, 0.85);
+  --shadow-lift: 0 24px 60px -28px rgba(0, 0, 0, 0.9);
+
+  /* ---- Tipografia ---- */
+  --font-display: "Fraunces Variable", "Fraunces", Georgia, serif;
+  --font-body: "Newsreader Variable", "Newsreader", Georgia, serif;
+  --font-mono: "Space Mono", "SFMono-Regular", ui-monospace, monospace;
+
+  /* eixos variáveis do Fraunces: alto contraste + caráter "wonk" no display */
+  --display-vsettings: "opsz" 144, "SOFT" 0, "WONK" 1;
+  --body-vsettings: "opsz" 18;
+
+  /* escala fluida */
+  --step--1: clamp(0.82rem, 0.79rem + 0.15vw, 0.9rem);
+  --step-0: clamp(1.06rem, 1rem + 0.28vw, 1.22rem); /* corpo */
+  --step-1: clamp(1.26rem, 1.15rem + 0.5vw, 1.6rem);
+  --step-2: clamp(1.5rem, 1.3rem + 1vw, 2.15rem);
+  --step-3: clamp(1.85rem, 1.5rem + 1.8vw, 3rem);
+  --step-4: clamp(2.3rem, 1.7rem + 3vw, 4.2rem);
+  --step-5: clamp(2.9rem, 1.9rem + 5vw, 6.4rem); /* capa */
+
+  --measure: 66ch; /* largura de leitura confortável */
+  --leading-body: 1.66;
+  --leading-tight: 1.12;
+
+  /* ---- Espaço (base 4px, ritmo editorial) ---- */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4.5rem;
+  --s-9: 7rem;
+  --s-10: 11rem;
+
+  /* ---- Layout ---- */
+  --shell: 1180px;
+  --shell-wide: 1440px;
+  --rail: 15rem; /* rail de marginalia em telas largas */
+  --radius: 3px;
+  --radius-lg: 6px;
+
+  /* ---- Motion ---- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 180ms;
+  --dur: 340ms;
+  --dur-slow: 720ms;
+
+  color-scheme: dark;
+}

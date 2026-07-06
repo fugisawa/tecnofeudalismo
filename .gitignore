@@ -1,0 +1,7 @@
+# caches e artefatos de build
+site/node_modules/
+site/dist/
+site/.astro/
+# artefatos de sessão/ferramentas locais
+.playwright-mcp/
+.claude/

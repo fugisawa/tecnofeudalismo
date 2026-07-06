@@ -1,0 +1,2450 @@
+[
+ {
+  "nome": "Michael Kratsios",
+  "tipo": "pessoa",
+  "descricao": "Diretor do White House Office of Science and Technology Policy (OSTP); coautor do AI Action Plan de 2025 e arquiteto da desregulamentação federal de IA em 2026.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "David Sacks",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Coautor do AI Action Plan; alinhado à agenda de IA do 'AI and Crypto Czar' da Casa Branca.",
+    "fonte_url": "https://www.techpolicy.press/transcript-ostp-director-kratsios-testifies-on-trump-ai-action-plan/"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Sriram Krishnan",
+  "tipo": "pessoa",
+  "descricao": "Ex-general partner da Andreessen Horowitz; foi Senior White House Policy Advisor em IA (jan/2025-jun/2026), depois National Economic Council; saiu do governo em 30/06/2026.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "Andreessen Horowitz",
+    "tipo_vinculo": "financeira",
+    "descricao": "General partner de 2021 a 2024, antes de ingressar no governo Trump.",
+    "fonte_url": "https://en.wikipedia.org/wiki/Sriram_Krishnan"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Jacob Helberg",
+  "tipo": "pessoa",
+  "descricao": "Under Secretary of State for Economic Growth, Energy, and the Environment desde out/2025; ex-conselheiro sênior do CEO da Palantir; marido do investidor Keith Rabois; mantém participações em Palantir, OpenAI, SpaceX, Anduril e Neuralink.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Palantir",
+    "tipo_vinculo": "financeira",
+    "descricao": "Ex-conselheiro sênior do CEO Alex Karp; manteve participação acionária ao assumir cargo público.",
+    "fonte_url": "https://news.bgov.com/federal-contracting/ex-palantir-adviser-to-keep-spacex-openai-stakes-in-trump-role"
+   },
+   {
+    "com": "Keith Rabois",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Marido; venture capitalist com portfólio de investimentos sobrepostos.",
+    "fonte_url": "https://readsludge.com/2025/06/12/tech-insider-helberg-poised-to-shape-u-s-foreign-policy-while-retaining-tech-portfolio/"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Emil Michael",
+  "tipo": "pessoa",
+  "descricao": "Under Secretary of War for Research and Engineering e CTO do Pentágono desde maio/2026; ex-chief business officer da Uber; vendeu participação na xAI por US$ 24 milhões após acordos do Pentágono com a empresa.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "xAI",
+    "tipo_vinculo": "financeira",
+    "descricao": "Vendeu participação privada em jan/2026, sob investigação por conflito de interesse ligado a contratos do Pentágono com a Grok/xAI.",
+    "fonte_url": "https://www.ibtimes.co.uk/emil-michael-xai-pentagon-role-1791073"
+   },
+   {
+    "com": "Anthropic",
+    "tipo_vinculo": "critica",
+    "descricao": "Apontado pela Fortune como líder da 'guerra' do governo Trump contra a Anthropic dentro da política de defesa/IA.",
+    "fonte_url": "https://fortune.com/2026/02/27/emil-michael-the-silicon-valley-exec-turned-trump-official-leading-the-war-against-anthropic-has-deep-ties-to-the-tech-world/"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Stephen Miller",
+  "tipo": "pessoa",
+  "descricao": "Arquiteto da política de deportação em massa do governo Trump; detém participação financeira declarada (US$ 100-250 mil) em ações da Palantir, principal contratada de vigilância da ICE.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Palantir",
+    "tipo_vinculo": "financeira",
+    "descricao": "Participação acionária pessoal enquanto formula política que expande contratos de vigilância da empresa com a ICE.",
+    "fonte_url": "https://www.rollingstone.com/politics/politics-news/stephen-miller-financial-stake-palantir-ice-contractor-1235371343/"
+   },
+   {
+    "com": "Kristi Noem",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Coordenação de metas de deportação que impulsionaram uso de apps de vigilância 'Elite' e 'Mobile Fortify' pela ICE.",
+    "fonte_url": "https://www.pogo.org/investigates/99-999-dhs-contracts-balloon-under-kristi-noems-directive"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Kristi Noem",
+  "tipo": "pessoa",
+  "descricao": "Secretária do DHS; sob sua gestão, mais de US$ 9 bilhões em contratos foram concedidos por processos pouco competitivos, incluindo expansão do uso da plataforma ImmigrationOS da Palantir.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Palantir",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "DHS/ICE contratante da plataforma ImmigrationOS (US$ 30 milhões) para vigilância migratória, com mission creep documentado sobre cidadãos.",
+    "fonte_url": "https://stateofsurveillance.org/news/ice-immigrationos-palantir-mission-creep-tracking-americans-2026/"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Howard Lutnick",
+  "tipo": "pessoa",
+  "descricao": "Secretário de Comércio dos EUA; ex-CEO da Cantor Fitzgerald (agora dirigida por seus filhos); sob investigação senatorial por empréstimo da Tether a fideicomisso de sua família e por conflitos na negociação da USA Rare Earth.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Tether",
+    "tipo_vinculo": "financeira",
+    "descricao": "Tether concedeu empréstimo a 'Dynasty Trust A', fideicomisso dos quatro filhos de Lutnick, um dia após ele vender sua participação na Cantor Fitzgerald para eles.",
+    "fonte_url": "https://www.bloomberg.com/news/articles/2026-04-30/two-senators-seek-cantor-fitzgerald-loan-documents-from-lutnick-tether"
+   },
+   {
+    "com": "Cantor Fitzgerald",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Ex-CEO; vendeu a firma aos próprios filhos ao assumir o cargo federal; a Cantor administra reservas da Tether.",
+    "fonte_url": "https://www.cnbc.com/2026/02/26/warren-lutnick-usa-rare-earth-usar-critical-minerals.html"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Christopher Rufo",
+  "tipo": "pessoa",
+  "descricao": "Ativista conservador, membro do conselho do New College of Florida e senior fellow do Manhattan Institute; líder da campanha de 'tomadas' ideológicas de conselhos universitários; réu em processo judicial na Flórida por ocultação de registros públicos.",
+  "cluster_sugerido": "ideologos",
+  "relacoes": [
+   {
+    "com": "New College of Florida",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Membro do conselho de trustees nomeado por DeSantis em 2023; processo judicial em curso em 2026.",
+    "fonte_url": "https://www.floridabulldog.org/2025/05/new-college-trustees-headed-trial-hiding-public-records/"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Trae Stephens",
+  "tipo": "pessoa",
+  "descricao": "Cofundador e presidente executivo da Anduril Industries; partner da Founders Fund de Peter Thiel; figura central no boom de defense-tech de 2026.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "Founders Fund",
+    "tipo_vinculo": "financeira",
+    "descricao": "Partner; fundo liderou parte do investimento de US$ 2,5 bi na Anduril em 2025.",
+    "fonte_url": "https://fortune.com/2026/06/05/anduril-trae-stephens-founders-fund-defense-tech-ipo-palantir-venture-capital/"
+   },
+   {
+    "com": "Peter Thiel",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Sócio na Founders Fund e vínculo estratégico via Anduril/Palantir no ecossistema defense-tech.",
+    "fonte_url": "https://foundersfund.com/team/trae-stephens/"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Antonio Gracias",
+  "tipo": "pessoa",
+  "descricao": "Fundador da Valor Equity Partners; aliado histórico de Elon Musk (financiou SpaceX em risco de falência); atuou no DOGE até jul/2025 chefiando força-tarefa de imigração; permanece no conselho da SpaceX.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "Elon Musk",
+    "tipo_vinculo": "financeira",
+    "descricao": "Aliado de longa data; Valor Equity é um dos maiores acionistas da SpaceX (~6,7%, avaliado em US$ 68 bi após IPO de jun/2026).",
+    "fonte_url": "https://www.cnbc.com/2026/06/12/spacex-stock-jumps-2-trillion.html"
+   },
+   {
+    "com": "DHS",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Coordenou força-tarefa de imigração do DOGE junto ao DHS antes de deixar o governo.",
+    "fonte_url": "https://www.nbcnews.com/politics/doge/high-ranking-doge-official-elon-musk-ally-antonio-gracias-left-governm-rcna220611"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Katie Miller",
+  "tipo": "pessoa",
+  "descricao": "Ex-assessora e porta-voz do DOGE; saiu do governo em maio de 2025 junto com Musk; lançou podcast conservador em agosto de 2025.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Stephen Miller",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Cônjuge (relação familiar) — nexo entre DOGE e a ala de imigração/vigilância do governo.",
+    "fonte_url": "https://en.wikipedia.org/wiki/Katie_Miller"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Marko Elez",
+  "tipo": "pessoa",
+  "descricao": "Ex-staffer do DOGE no Tesouro; obteve acesso a sistemas de pagamento sensíveis (BFS); renunciou após vínculo com posts racistas, mas foi mantido/recontratado por decisão de Musk.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "Tom Krause",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Trabalhou sob supervisão de Krause no acesso a sistemas do Tesouro.",
+    "fonte_url": "https://therecord.media/treasury-agrees-block-doge-access"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Edward Coristine",
+  "tipo": "pessoa",
+  "descricao": "Conhecido como 'Big Balls'; ex-Neuralink, staffer do DOGE realocado para SSA, State Department e DHS; alvo de escrutínio por alegada demissão anterior por vazamento de dados.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "DOGE",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Atuou em múltiplas agências federais como parte da rede DOGE.",
+    "fonte_url": "https://en.wikipedia.org/wiki/Network_of_the_Department_of_Government_Efficiency"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Amy Gleason",
+  "tipo": "pessoa",
+  "descricao": "Administradora do U.S. DOGE Service; ex-U.S. Digital Service; também assessorou Robert F. Kennedy Jr. desde março de 2025.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Robert F. Kennedy Jr.",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Assessorou RFK Jr. em paralelo à liderança do DOGE Service.",
+    "fonte_url": "https://www.dnaindia.com/world/report-who-may-replace-elon-musk-as-head-of-doge-vivek-ramaswamy-tom-krause-amy-gleason-or-a-dark-horse-like-3155265"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Palantir Technologies",
+  "tipo": "empresa",
+  "descricao": "Empresa de dados/vigilância cofundada por Peter Thiel; principal contratada da ICE (ImmigrationOS, US$ 30 milhões) e alvo de escrutínio por 'mission creep' de vigilância sobre cidadãos americanos em 2026.",
+  "cluster_sugerido": "plataformas",
+  "relacoes": [
+   {
+    "com": "Kristi Noem",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Contratante principal do DHS/ICE para ImmigrationOS sob a gestão de Noem.",
+    "fonte_url": "https://stateofsurveillance.org/news/ice-immigrationos-palantir-mission-creep-tracking-americans-2026/"
+   },
+   {
+    "com": "Stephen Miller",
+    "tipo_vinculo": "financeira",
+    "descricao": "Miller detém participação acionária pessoal na empresa.",
+    "fonte_url": "https://www.rollingstone.com/politics/politics-news/stephen-miller-financial-stake-palantir-ice-contractor-1235371343/"
+   },
+   {
+    "com": "Jacob Helberg",
+    "tipo_vinculo": "financeira",
+    "descricao": "Helberg foi conselheiro sênior do CEO Alex Karp antes de assumir cargo no Departamento de Estado.",
+    "fonte_url": "https://news.bgov.com/federal-contracting/ex-palantir-adviser-to-keep-spacex-openai-stakes-in-trump-role"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Tether",
+  "tipo": "empresa",
+  "descricao": "Emissora da stablecoin USDT; concedeu empréstimo a fideicomisso da família de Howard Lutnick e tem a maior parte de suas reservas (mais de US$ 80 bi em Treasuries) administrada pela Cantor Fitzgerald.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Howard Lutnick",
+    "tipo_vinculo": "financeira",
+    "descricao": "Empréstimo a fideicomisso familiar e gestão de reservas via Cantor Fitzgerald, sob investigação senatorial.",
+    "fonte_url": "https://www.bloomberg.com/news/articles/2026-04-30/two-senators-seek-cantor-fitzgerald-loan-documents-from-lutnick-tether"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Anduril Industries",
+  "tipo": "empresa",
+  "descricao": "Empresa de defense-tech cofundada por Trae Stephens (Palmer Luckey é o fundador principal), avaliada em US$ 61 bilhões em maio de 2026 após rodada liderada por Thrive Capital e a16z.",
+  "cluster_sugerido": "plataformas",
+  "relacoes": [
+   {
+    "com": "Founders Fund",
+    "tipo_vinculo": "financeira",
+    "descricao": "Fundo de Thiel investiu cerca de US$ 1 bi na rodada de 2025.",
+    "fonte_url": "https://fortune.com/2026/06/05/anduril-trae-stephens-founders-fund-defense-tech-ipo-palantir-venture-capital/"
+   }
+  ],
+  "frente": "eua-segundo-escalao"
+ },
+ {
+  "nome": "Jeff Yass",
+  "tipo": "pessoa",
+  "descricao": "Bilionário cofundador da Susquehanna International Group (SIG), megadoador republicano/libertário (Club for Growth), com dupla exposição financeira ao acordo TikTok USDS via participação na ByteDance e via subsidiária Vastmere Strategic Investments.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "ByteDance",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Detém participação pessoal estimada em 7% na ByteDance (via SIG ~15%), avaliada em ~US$21 bi.",
+    "fonte_url": "https://montco.today/2026/02/susquehanna-international-group-us-tiktok/"
+   },
+   {
+    "com": "TikTok USDS",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Via subsidiária Vastmere Strategic Investments, integra o consórcio controlador da nova joint venture dos EUA.",
+    "fonte_url": "https://en.wikipedia.org/wiki/TikTok_USDS"
+   },
+   {
+    "com": "Club for Growth",
+    "tipo_vinculo": "financeira",
+    "descricao": "Maior doador histórico, com mais de US$32 milhões acumulados e US$19 milhões só em 2026.",
+    "fonte_url": "https://www.forbes.com/sites/kylemullins/2026/05/04/the-billionaire-donors-behind-trumps-midterm-superweapon/"
+   },
+   {
+    "com": "MAGA Inc.",
+    "tipo_vinculo": "financeira",
+    "descricao": "Maior receptor de doações de Yass em 2026, com US$16 milhões.",
+    "fonte_url": "https://www.forbes.com/sites/kylemullins/2026/05/04/the-billionaire-donors-behind-trumps-midterm-superweapon/"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "Susquehanna International Group (SIG) / Vastmere Strategic Investments",
+  "tipo": "empresa",
+  "descricao": "Gigante de investimentos de Bala Cynwyd (Pensilvânia) controlada por Jeff Yass; sua subsidiária Vastmere integra o consórcio controlador da TikTok USDS, com assento no board via Mark Dooley.",
+  "cluster_sugerido": "plataformas",
+  "relacoes": [
+   {
+    "com": "TikTok USDS",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Vastmere é parte do consórcio de investidores controladores; Mark Dooley (SIG) ocupa cadeira no board.",
+    "fonte_url": "https://en.wikipedia.org/wiki/TikTok_USDS"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "TikTok USDS Joint Venture LLC",
+  "tipo": "empresa",
+  "descricao": "Nova entidade americana que controla as operações de TikTok, CapCut e Lemon8 nos EUA, formada em janeiro de 2026 por consórcio liderado por Oracle, Silver Lake e MGX, com ByteDance mantendo 19,9%.",
+  "cluster_sugerido": "plataformas",
+  "relacoes": [
+   {
+    "com": "Oracle",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Investidor gestor com 15% (dentro do bloco de 50% do consórcio); Kenneth Glueck no board.",
+    "fonte_url": "https://variety.com/2025/digital/news/tiktok-us-joint-venture-deal-close-date-oracle-silver-lake-1236612315/"
+   },
+   {
+    "com": "Silver Lake",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Investidor gestor com 15%; Egon Durban (co-CEO) no board.",
+    "fonte_url": "https://variety.com/2025/digital/news/tiktok-us-joint-venture-deal-close-date-oracle-silver-lake-1236612315/"
+   },
+   {
+    "com": "MGX (Abu Dhabi)",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Investidor gestor com 15%; David Scott no board — mesmo fundo estatal que usou USD1 para investir US$2 bi na Binance.",
+    "fonte_url": "https://variety.com/2025/digital/news/tiktok-us-joint-venture-deal-close-date-oracle-silver-lake-1236612315/"
+   },
+   {
+    "com": "ByteDance",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Retém 19,9% da nova joint venture americana.",
+    "fonte_url": "https://variety.com/2025/digital/news/tiktok-us-joint-venture-deal-close-date-oracle-silver-lake-1236612315/"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "MGX",
+  "tipo": "empresa",
+  "descricao": "Fundo soberano de Abu Dhabi que investiu US$2 bilhões na Binance usando a stablecoin USD1 ligada a Trump (a maior transação institucional da história da exchange) e também é um dos três investidores-gestores da TikTok USDS — nó duplo entre capital estatal do Golfo, Big Tech dos EUA e o clã Trump.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "World Liberty Financial / USD1",
+    "tipo_vinculo": "financeira",
+    "descricao": "Usou USD1 para liquidar aporte de US$2 bi na Binance.",
+    "fonte_url": "https://www.forbes.com/sites/zacheverson/2025/10/02/mgx-usd1-binance-trump-stablecoin-world-liberty-financial/"
+   },
+   {
+    "com": "TikTok USDS",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Um dos três investidores-gestores com 15% de participação.",
+    "fonte_url": "https://variety.com/2025/digital/news/tiktok-us-joint-venture-deal-close-date-oracle-silver-lake-1236612315/"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "World Liberty Financial (WLFI)",
+  "tipo": "empresa",
+  "descricao": "Empreendimento cripto da família Trump (~38% de propriedade via LLC familiar), emissor da stablecoin USD1 e do token de governança WLFI; alvo de investigação do Senado por vendas de token a atores sancionados (Coreia do Norte, Rússia, Irã) e de processo movido por Justin Sun.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Donald Trump / família Trump",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Família recebe 75% dos lucros líquidos das vendas de token e fatia dos lucros da stablecoin; lucro de ~US$1 bi até dez/2025.",
+    "fonte_url": "https://www.dlnews.com/articles/markets/binance-now-custodies-89-pct-of-trump-family-stablecoin-usd1/"
+   },
+   {
+    "com": "Binance",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Binance custodia 87-89% do supply de USD1 e projeta gerar ~US$150 milhões em lucro conjunto em 2026.",
+    "fonte_url": "https://www.forbes.com/sites/zacheverson/2026/02/09/trump-stablecoin-usd1-binance-holds-87-percent/"
+   },
+   {
+    "com": "Justin Sun",
+    "tipo_vinculo": "critica",
+    "descricao": "Processo mútuo: Sun alega congelamento ilegal de US$1 bi+ em tokens WLFI; WLFI reconvém por venda a descoberto.",
+    "fonte_url": "https://www.coindesk.com/policy/2026/04/21/tron-s-justin-sun-sues-trump-linked-world-liberty-financial-over-frozen-assets"
+   },
+   {
+    "com": "Elizabeth Warren / Jack Reed",
+    "tipo_vinculo": "critica",
+    "descricao": "Pediram investigação do Tesouro/DOJ sobre venda de tokens a carteiras ligadas a Lazarus Group (Coreia do Norte), Rússia e Irã.",
+    "fonte_url": "https://www.cnbc.com/2025/11/18/senator-probe-warren-trump-crypto-world-liberty-financial-usd1-wlfi-ties-north-korea-russia-iran.html"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "Justin Sun",
+  "tipo": "pessoa",
+  "descricao": "Bilionário cripto fundador da Tron, maior detentor conhecido da memecoin $TRUMP em 2025 (acesso a jantar exclusivo com Trump), alvo de caso da SEC encerrado por acordo em março de 2026, hoje em litígio com a WLFI por congelamento de tokens.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Donald Trump",
+    "tipo_vinculo": "financeira",
+    "descricao": "Maior detentor da memecoin $TRUMP, obteve acesso a jantar exclusivo em 2025.",
+    "fonte_url": "https://finance.yahoo.com/markets/crypto/articles/most-expensive-friendship-crypto-justin-092240744.html"
+   },
+   {
+    "com": "SEC",
+    "tipo_vinculo": "critica",
+    "descricao": "Caso por fraude/wash trading encerrado em março de 2026 com acordo de US$10 milhões sem admissão de culpa.",
+    "fonte_url": "https://www.ms.now/news/crypto-investor-justin-sun-sues-trumps-world-liberty-financial-over-misconduct"
+   },
+   {
+    "com": "World Liberty Financial",
+    "tipo_vinculo": "critica",
+    "descricao": "Processa a WLFI por congelamento ilegal de tokens; WLFI reconvém.",
+    "fonte_url": "https://www.coindesk.com/policy/2026/04/21/tron-s-justin-sun-sues-trump-linked-world-liberty-financial-over-frozen-assets"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "Howard Lutnick",
+  "tipo": "pessoa",
+  "descricao": "Secretário de Comércio dos EUA e ex-chairman da Cantor Fitzgerald; vendeu participação bilionária na firma para trusts dos filhos em outubro de 2025, no mesmo período em que um desses trusts recebeu empréstimo não divulgado da Tether — alvo de carta de investigação de Warren e Wyden.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Cantor Fitzgerald",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Ex-chairman, vendeu participação para trusts dos filhos em out/2025.",
+    "fonte_url": "https://www.bloomberg.com/news/features/2026-03-18/tether-made-loan-to-lutnick-s-children-as-they-bought-his-assets"
+   },
+   {
+    "com": "Tether",
+    "tipo_vinculo": "financeira",
+    "descricao": "Trust familiar ('Dynasty Trust A') recebeu empréstimo não divulgado da Tether na época da venda das ações da Cantor.",
+    "fonte_url": "https://www.banking.senate.gov/imo/media/doc/20260429warrenwydenlettertolutnickretethercantorfitzgeraldloan.pdf"
+   },
+   {
+    "com": "Elizabeth Warren / Ron Wyden",
+    "tipo_vinculo": "critica",
+    "descricao": "Alvo de carta de investigação sobre o empréstimo Tether-Cantor em 29/04/2026.",
+    "fonte_url": "https://www.banking.senate.gov/imo/media/doc/20260429warrenwydenlettertolutnickretethercantorfitzgeraldloan.pdf"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "Cantor Fitzgerald",
+  "tipo": "empresa",
+  "descricao": "Banco de investimento de Wall Street que administra a maior parte das reservas em Treasuries da Tether (>US$80 bi) e doou US$10 milhões ao Fellowship PAC cripto em abril de 2026.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Tether",
+    "tipo_vinculo": "financeira",
+    "descricao": "Custodia/administra reservas em Treasuries da Tether.",
+    "fonte_url": "https://www.coindesk.com/business/2024/12/10/howard-lutnick-tether-s-big-backer"
+   },
+   {
+    "com": "Fellowship PAC",
+    "tipo_vinculo": "financeira",
+    "descricao": "Doou US$10 milhões ao PAC liderado por executivo da Tether.",
+    "fonte_url": "https://www.theblock.co/post/397655/former-lutnick-run-cantor-fitzgerald-donates-10-million-to-crypto-pac-led-by-tether-exec"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "Tether / Jesse Spiro",
+  "tipo": "empresa",
+  "descricao": "Maior emissora de stablecoin (USDT) do mundo, com reservas geridas pela Cantor Fitzgerald; seu chefe de assuntos governamentais nos EUA, Jesse Spiro, lidera o Fellowship PAC, financiado principalmente pela Cantor Fitzgerald.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Fellowship PAC",
+    "tipo_vinculo": "financeira",
+    "descricao": "Jesse Spiro (Tether) lidera o PAC financiado por US$10 mi da Cantor Fitzgerald.",
+    "fonte_url": "https://www.theblock.co/post/397655/former-lutnick-run-cantor-fitzgerald-donates-10-million-to-crypto-pac-led-by-tether-exec"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "Fairshake (super-PAC cripto)",
+  "tipo": "movimento",
+  "descricao": "Maior super-PAC pró-cripto dos EUA, com US$193 milhões em caixa para os midterms 2026, financiado por Andreessen Horowitz, Ripple, Coinbase e Crypto.com, entre outros.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Andreessen Horowitz (a16z)",
+    "tipo_vinculo": "financeira",
+    "descricao": "Maior doador individual, com US$51,65 milhões.",
+    "fonte_url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash"
+   },
+   {
+    "com": "Coinbase / Brian Armstrong",
+    "tipo_vinculo": "financeira",
+    "descricao": "Mais de US$100 milhões em doações acumuladas desde 2023, incluindo US$25 mi pessoais de Armstrong.",
+    "fonte_url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash"
+   },
+   {
+    "com": "Ripple",
+    "tipo_vinculo": "financeira",
+    "descricao": "Segundo maior doador, com US$49,6 milhões.",
+    "fonte_url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash"
+   },
+   {
+    "com": "Winklevoss (Gemini)",
+    "tipo_vinculo": "financeira",
+    "descricao": "Contribuiu com US$25,7 milhões combinados via entidades Gemini; também financiou PAC próprio (Digital Freedom Fund).",
+    "fonte_url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "Digital Freedom Fund",
+  "tipo": "movimento",
+  "descricao": "Novo super-PAC cripto lançado pelos irmãos Winklevoss, com cerca de US$21 milhões em Bitcoin aportados, paralelo às doações ao Fairshake.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Cameron e Tyler Winklevoss",
+    "tipo_vinculo": "financeira",
+    "descricao": "Fundadores e principais financiadores do PAC.",
+    "fonte_url": "https://www.citationneeded.news/crypto-super-pacs-2026-midterms/"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "Miriam Adelson",
+  "tipo": "pessoa",
+  "descricao": "Viúva de Sheldon Adelson e megadoadora republicana; maior doadora do GOP no 1º trimestre de 2026, com US$40 milhões destinados a super-PACs de liderança republicana no Senado e na Câmara.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Senate Leadership Fund",
+    "tipo_vinculo": "financeira",
+    "descricao": "Doou US$30 milhões em 2026.",
+    "fonte_url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson"
+   },
+   {
+    "com": "Congressional Leadership Fund",
+    "tipo_vinculo": "financeira",
+    "descricao": "Doou US$10 milhões em 2026.",
+    "fonte_url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "Fellowship PAC",
+  "tipo": "movimento",
+  "descricao": "Super-PAC cripto de orientação republicana financiado majoritariamente pela Cantor Fitzgerald (US$10 milhões) e liderado por Jesse Spiro, executivo da Tether.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Cantor Fitzgerald",
+    "tipo_vinculo": "financeira",
+    "descricao": "Principal financiador com US$10 milhões.",
+    "fonte_url": "https://www.bloomberg.com/news/articles/2026-04-15/cantor-fitzgerald-gives-10-million-to-tether-led-crypto-pac"
+   }
+  ],
+  "frente": "cripto-dinheiro-politico"
+ },
+ {
+  "nome": "Atlas Network",
+  "tipo": "think_tank",
+  "descricao": "Rede global de think tanks libertários/neoliberais sediada nos EUA que financia e treina organizações parceiras na América Latina, incluindo o histórico apoio à criação do EPL e à formação de lideranças do MBL no Brasil.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Estudantes pela Liberdade (EPL)",
+    "tipo_vinculo": "financeira",
+    "descricao": "Organizou e financiou o encontro fundador em Petrópolis (2012) e forneceu treinamento via Atlas Leadership Academy.",
+    "fonte_url": "https://medium.com/democratize-m%C3%ADdia/atlas-e-students-for-liberty-quem-s%C3%A3o-as-pessoas-que-financiam-os-protestos-do-dia-13-8624ef53e955"
+   },
+   {
+    "com": "MBL (Movimento Brasil Livre)",
+    "tipo_vinculo": "financeira",
+    "descricao": "Site do Atlas listou o MBL como parceiro brasileiro; membros passaram por treinamento da Atlas.",
+    "fonte_url": "https://grabois.org.br/2017/11/09/o-mbl-e-sua-rede/"
+   },
+   {
+    "com": "Instituto Millenium",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Membro brasileiro histórico da rede Atlas.",
+    "fonte_url": "https://www.atlasnetwork.org/partners/global-directory/instituto-millenium"
+   },
+   {
+    "com": "Instituto Liberal",
+    "tipo_vinculo": "financeira",
+    "descricao": "Parceiro Atlas no Rio de Janeiro, com financiamento histórico também de NED/CIPE.",
+    "fonte_url": "https://www.institutoliberal.org.br/partners/partner-1/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Estudantes pela Liberdade (EPL) / Students for Liberty Brasil",
+  "tipo": "movimento",
+  "descricao": "Braço brasileiro do Students for Liberty; segundo depoimento de seu diretor executivo, criou a marca MBL para participar de protestos de rua sem comprometer financiadores americanos sujeitos a restrições do IRS.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "MBL",
+    "tipo_vinculo": "propriedade",
+    "descricao": "MBL foi criado como marca/braço de ativismo de rua do EPL.",
+    "fonte_url": "https://grabois.org.br/2017/11/09/o-mbl-e-sua-rede/"
+   },
+   {
+    "com": "Atlas Network",
+    "tipo_vinculo": "financeira",
+    "descricao": "Recebeu cerca de R$300 mil em financiamento entre 2013-2015.",
+    "fonte_url": "https://medium.com/democratize-m%C3%ADdia/ongs-estrangeiras-financiam-atividades-de-direita-em-universidades-do-brasil-ac5da94c9acb"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Instituto Conservador Liberal (ICL-BR)",
+  "tipo": "think_tank",
+  "descricao": "Organização brasileira criada em sociedade entre Eduardo Bolsonaro e o advogado Sérgio Sant'Ana, responsável por organizar formalmente as edições do CPAC Brasil desde 2019.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Eduardo Bolsonaro",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Co-fundador e organizador principal do CPAC Brasil através do ICL.",
+    "fonte_url": "https://apublica.org/nota/cpac-evento-do-instituto-de-eduardo-bolsonaro-tem-patrocinio-de-apoiadora-de-ato-golpista/"
+   },
+   {
+    "com": "CPAC (Conservative Political Action Conference, EUA)",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Licencia/replica o formato CPAC no Brasil desde 2019, dentro da rede de Steve Bannon/Matt Schlapp.",
+    "fonte_url": "https://apublica.org/2025/08/eduardo-bolsonaro-e-um-projeto-de-steve-bannon/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Steve Bannon",
+  "tipo": "pessoa",
+  "descricao": "Ex-estrategista de Donald Trump, fundador de 'The Movement', aliança internacional de políticos de extrema-direita; nomeou Eduardo Bolsonaro como seu representante para a América do Sul em fevereiro de 2019 e lançou publicamente a candidatura de Eduardo em janeiro de 2025.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Eduardo Bolsonaro",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Mentor político; mensagens da PF (ago/2025) documentaram coordenação direta.",
+    "fonte_url": "https://apublica.org/2025/08/eduardo-bolsonaro-e-um-projeto-de-steve-bannon/"
+   },
+   {
+    "com": "Guo Wengui",
+    "tipo_vinculo": "financeira",
+    "descricao": "Guo foi patrono financeiro histórico de longa data de Bannon.",
+    "fonte_url": "https://apublica.org/2025/08/paulo-figueiredo-justica-dos-eua-liga-influenciador-a-fraude/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "The Movement (aliança de Bannon)",
+  "tipo": "movimento",
+  "descricao": "Coalizão internacional de políticos e estrategistas de extrema-direita criada por Steve Bannon, hoje descrita como 'esfriada'; nomeou Eduardo Bolsonaro representante sul-americano em 2019.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Eduardo Bolsonaro",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Representante sul-americano nomeado por Bannon em fevereiro de 2019.",
+    "fonte_url": "https://apublica.org/2025/08/eduardo-bolsonaro-e-um-projeto-de-steve-bannon/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Jason Miller",
+  "tipo": "pessoa",
+  "descricao": "CEO da rede social Gettr, aliado próximo de Trump e Bannon; financiou o instituto de Eduardo Bolsonaro e visitou o Brasil múltiplas vezes.",
+  "cluster_sugerido": "plataformas",
+  "relacoes": [
+   {
+    "com": "Eduardo Bolsonaro",
+    "tipo_vinculo": "financeira",
+    "descricao": "Financiou o instituto de Eduardo Bolsonaro.",
+    "fonte_url": "https://apublica.org/2025/08/eduardo-bolsonaro-e-um-projeto-de-steve-bannon/"
+   },
+   {
+    "com": "Gettr",
+    "tipo_vinculo": "propriedade",
+    "descricao": "CEO da plataforma.",
+    "fonte_url": "https://apublica.org/2025/08/paulo-figueiredo-justica-dos-eua-liga-influenciador-a-fraude/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Guo Wengui (Miles Kwok / Ho Wan Kwok)",
+  "tipo": "pessoa",
+  "descricao": "Bilionário chinês foragido nos EUA, patrono financeiro histórico de Steve Bannon e apontado pela Justiça americana como 'controlador' da Gettr; financiou Paulo Figueiredo com cerca de US$140 mil (R$770 mil) via empresa de fachada, segundo processo de falência em Connecticut.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Paulo Figueiredo",
+    "tipo_vinculo": "financeira",
+    "descricao": "Transferiu ~US$140 mil via HCHK Technologies Inc., revelado em processo de falência aberto em fevereiro de 2024.",
+    "fonte_url": "https://apublica.org/2025/08/paulo-figueiredo-justica-dos-eua-liga-influenciador-a-fraude/"
+   },
+   {
+    "com": "Gettr",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Apontado por cortes dos EUA como controlador da plataforma.",
+    "fonte_url": "https://apublica.org/2025/08/paulo-figueiredo-justica-dos-eua-liga-influenciador-a-fraude/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Paulo Figueiredo (Neto)",
+  "tipo": "pessoa",
+  "descricao": "Influenciador bolsonarista, ex-funcionário da Gettr (2021-2022), atualmente sob investigação da Justiça americana por fraude relacionada a transferências de Guo Wengui; apareceu na Casa Branca ao lado de Eduardo Bolsonaro em julho de 2026.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Guo Wengui",
+    "tipo_vinculo": "financeira",
+    "descricao": "Recebeu ~US$140 mil de empresa ligada a Guo.",
+    "fonte_url": "https://apublica.org/2025/08/paulo-figueiredo-justica-dos-eua-liga-influenciador-a-fraude/"
+   },
+   {
+    "com": "Eduardo Bolsonaro",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Apareceu junto a Eduardo em ato na Casa Branca em julho de 2026.",
+    "fonte_url": "https://apublica.org/2025/08/paulo-figueiredo-justica-dos-eua-liga-influenciador-a-fraude/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Martin de Luca",
+  "tipo": "pessoa",
+  "descricao": "Advogado da Rumble e da Trump Media, atuou como intermediário entre Eduardo Bolsonaro e Donald Trump.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Eduardo Bolsonaro",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Intermediário jurídico/político nos contatos com Trump.",
+    "fonte_url": "https://apublica.org/2025/08/eduardo-bolsonaro-e-um-projeto-de-steve-bannon/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Flávio Bolsonaro",
+  "tipo": "pessoa",
+  "descricao": "Senador e pré-candidato à presidência em 2026; discursou no CPAC Texas em março de 2026 pedindo 'pressão diplomática' dos EUA sobre as instituições brasileiras, e ofereceu recursos estratégicos (terras raras, IA) aos EUA.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "CPAC",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Discursou no CPAC Texas em 28 de março de 2026 pedindo intervenção diplomática dos EUA.",
+    "fonte_url": "https://apublica.org/2026/03/o-moderado-candidato-flavio-bolsonaro-e-made-in-usa/"
+   },
+   {
+    "com": "Stephen Miller",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Contato na equipe Trump durante articulação da campanha 2026.",
+    "fonte_url": "https://apublica.org/2026/03/o-moderado-candidato-flavio-bolsonaro-e-made-in-usa/"
+   },
+   {
+    "com": "Darren Beattie",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Assessor do Departamento de Estado dos EUA para o Brasil, contato da família Bolsonaro.",
+    "fonte_url": "https://apublica.org/2026/03/o-moderado-candidato-flavio-bolsonaro-e-made-in-usa/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Rockbridge Network",
+  "tipo": "think_tank",
+  "descricao": "Rede de doadores/'venture capital político' fundada por JD Vance e Chris Buskirk em 2019, com orçamento de US$70-80 milhões (2024) e controle de múltiplas organizações dark-money; sem laço documentado com o Brasil até o momento.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "JD Vance",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Cofundador da rede em 2019.",
+    "fonte_url": "https://www.cbsnews.com/news/jd-vance-rockbridge-network-conservative-donor-summit-nashville/"
+   },
+   {
+    "com": "Chris Buskirk",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Presidente da rede; cofundador com Vance.",
+    "fonte_url": "https://en.wikipedia.org/wiki/Rockbridge_Network"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Heritage Foundation",
+  "tipo": "think_tank",
+  "descricao": "Think tank conservador americano autor do 'Projeto 2025'; publicou textos de comentário específicos sobre o Brasil pós-eleitoral enquadrando o bolsonarismo dentro de sua agenda hemisférica; segundo pesquisadora Sonia Corrêa, integra rede de ~30 grupos que gastaram centenas de milhões disseminando a agenda do Projeto 2025 na América Latina.",
+  "cluster_sugerido": "ideologos",
+  "relacoes": [
+   {
+    "com": "Jair Bolsonaro / bolsonarismo",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Publicou comentários enquadrando Bolsonaro como aliado ideológico hemisférico.",
+    "fonte_url": "https://www.heritage.org/americas/commentary/the-rise-brazils-trump-and-the-fall-the-countrys-left-wing-establishment"
+   },
+   {
+    "com": "Paul Weyrich",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Um dos fundadores da Heritage, com laço histórico com Plinio Corrêa de Oliveira (TFP) no Brasil.",
+    "fonte_url": "https://www.opendemocracy.net/en/5050/heritage-foundation-project-2025-far-right-us-abortion-rights-democracy-trump/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Fundación Disenso / Foro de Madrid (Vox)",
+  "tipo": "think_tank",
+  "descricao": "Think tank do partido espanhol Vox presidido por Santiago Abascal, financiado com quase 13 milhões de euros do partido desde 2020; opera o 'Foro de Madrid', aliança internacional que reivindica campanhas de mobilização política em vários países latino-americanos, incluindo o Brasil.",
+  "cluster_sugerido": "ideologos",
+  "relacoes": [
+   {
+    "com": "Santiago Abascal",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Presidente da Fundación Disenso.",
+    "fonte_url": "https://www.elnacional.cat/es/politica/vox-ha-transferido-casi-13-millones-fundacion-disenso-presidida-por-santiago-abascal_1659539_102.html"
+   },
+   {
+    "com": "direita brasileira (movimentos aliados não especificados)",
+    "tipo_vinculo": "brasil",
+    "descricao": "Foro de Madrid reivindica campanhas de mobilização política envolvendo o Brasil, entre outros países latino-americanos.",
+    "fonte_url": "https://aldescubierto.org/2022/02/24/foro-de-madrid-vox-america-latina-2/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Fernando Cerimedo",
+  "tipo": "pessoa",
+  "descricao": "Estrategista digital argentino que trabalha para o presidente Javier Milei e também trabalhou para Jair Bolsonaro; investigado no Brasil por suposto papel na tentativa de golpe de 2022/2023.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Javier Milei",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Estrategista digital da campanha/governo Milei.",
+    "fonte_url": "https://www.opendemocracy.net/en/trump-project-2025-argentina-milei-far-right/"
+   },
+   {
+    "com": "Jair Bolsonaro",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Também prestou serviços de estratégia digital a Bolsonaro; investigado por papel na tentativa de golpe.",
+    "fonte_url": "https://www.opendemocracy.net/en/trump-project-2025-argentina-milei-far-right/"
+   }
+  ],
+  "frente": "redes-transnacionais"
+ },
+ {
+  "nome": "Brasil Paralelo",
+  "tipo": "empresa",
+  "descricao": "Produtora audiovisual e plataforma de streaming de direita fundada em 2016, financiada por venda de assinaturas e cursos; produz documentários políticos com forte investimento em SEO/tráfego pago e alcance viral no YouTube.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Ministério Público do Ceará",
+    "tipo_vinculo": "critica",
+    "descricao": "Alvo da Operação Echo Chamber por documentário com laudo pericial adulterado sobre Maria da Penha; denúncia criminal aceita em março de 2026.",
+    "fonte_url": "https://pt.wikipedia.org/wiki/Brasil_Paralelo"
+   },
+   {
+    "com": "YouTube",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Principal canal de monetização e distribuição de conteúdo, com milhões de visualizações mensais.",
+    "fonte_url": "https://nucleo.jor.br/especiais/2023/01/31/a-maquina-do-brasil-paralelo"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Jovem Pan",
+  "tipo": "midia",
+  "descricao": "Grupo de rádio e TV brasileiro condenado judicialmente por campanha de desinformação eleitoral em 2022; alvo de ação do MPF pedindo cancelamento de outorgas.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "MPF",
+    "tipo_vinculo": "critica",
+    "descricao": "Ação por cancelamento de outorgas de rádio por papel central na campanha de desinformação de 2022.",
+    "fonte_url": "https://www.bbc.com/portuguese/articles/c931ylyqj9vo"
+   },
+   {
+    "com": "Jair Bolsonaro",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Servia como 'caixa de ressonância' para discursos golpistas e apoiadores de Bolsonaro.",
+    "fonte_url": "https://www.bbc.com/portuguese/articles/c931ylyqj9vo"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Allan dos Santos",
+  "tipo": "pessoa",
+  "descricao": "Blogueiro bolsonarista, fundador do canal Terça Livre, foragido da Justiça brasileira desde 2021, vive nos EUA e é o pivô do conflito Rumble-Moraes.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Rumble",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Plataforma na qual mantinha conta bloqueada por ordem de Moraes, desencadeando processo judicial nos EUA.",
+    "fonte_url": "https://www.bbc.com/portuguese/articles/cvgdlg47n2vo"
+   },
+   {
+    "com": "Eduardo Bolsonaro",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Apareceu em vídeo publicado por Eduardo Bolsonaro durante posse de Trump em janeiro.",
+    "fonte_url": "https://www.cnnbrasil.com.br/politica/foragido-no-brasil-allan-dos-santos-vive-nos-estados-unidos-entenda"
+   },
+   {
+    "com": "Alexandre de Moraes",
+    "tipo_vinculo": "critica",
+    "descricao": "Alvo de decisão de prisão preventiva e de bloqueio de monetização determinados por Moraes.",
+    "fonte_url": "https://www.bbc.com/portuguese/articles/cvgdlg47n2vo"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Rumble Inc.",
+  "tipo": "empresa",
+  "descricao": "Plataforma de vídeo canadense-americana de direita, associada a Trump Media, que processou o ministro Alexandre de Moraes na Justiça Federal da Flórida por supostas ordens de censura extraterritorial.",
+  "cluster_sugerido": "plataformas",
+  "relacoes": [
+   {
+    "com": "Trump Media & Technology Group",
+    "tipo_vinculo": "financeira",
+    "descricao": "Coautora da ação judicial contra Moraes; serviços de vídeo do Truth Social dependem de infraestrutura do Rumble.",
+    "fonte_url": "https://www.bbc.com/portuguese/articles/cvgdlg47n2vo"
+   },
+   {
+    "com": "Alexandre de Moraes",
+    "tipo_vinculo": "critica",
+    "descricao": "Processo na Flórida acusando o ministro de violar soberania americana e a Primeira Emenda.",
+    "fonte_url": "https://www.congressoemfoco.com.br/noticia/119690/agu-pede-que-justica-dos-eua-encerre-acao-da-rumble-contra-moraes"
+   },
+   {
+    "com": "Chris Pavlovski",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Empresário canadense, CEO/dono do Rumble, protagonizou embate público via X contra Moraes.",
+    "fonte_url": "https://www.bbc.com/portuguese/articles/cvgdlg47n2vo"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Chris Pavlovski",
+  "tipo": "pessoa",
+  "descricao": "Empresário canadense, fundador e CEO do Rumble, que confrontou publicamente o ministro Alexandre de Moraes e sustentou o bloqueio da plataforma no Brasil.",
+  "cluster_sugerido": "plataformas",
+  "relacoes": [
+   {
+    "com": "Alexandre de Moraes",
+    "tipo_vinculo": "critica",
+    "descricao": "Declarou que Moraes 'não tem autoridade sobre o Rumble' fora do Brasil, chamando a ordem de 'ilegal'.",
+    "fonte_url": "https://www.bbc.com/portuguese/articles/cvgdlg47n2vo"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "AGU (Advocacia-Geral da União)",
+  "tipo": "orgao_publico",
+  "descricao": "Órgão jurídico do governo brasileiro que atuou na defesa do ministro Alexandre de Moraes no processo movido pela Rumble e Trump Media na Justiça Federal da Flórida, invocando imunidade de jurisdição.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Alexandre de Moraes",
+    "tipo_vinculo": "inteligencia",
+    "descricao": "Pediu habilitação como parte no processo dos EUA para defender atos jurisdicionais do STF sob soberania estatal.",
+    "fonte_url": "https://www.conjur.com.br/2026-jun-16/agu-requer-extincao-de-acao-nos-eua-sobre-caso-rumble"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Pablo Marçal",
+  "tipo": "pessoa",
+  "descricao": "Empresário/coach digital e ex-candidato à Prefeitura de São Paulo (2024), condenado à inelegibilidade por 8 anos em três ações distintas; monetiza marketing político via curso 'Máquina de Votos' com meta de R$50 milhões em 2026.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Filipe Sabará",
+    "tipo_vinculo": "financeira",
+    "descricao": "Sócio na Unipoli e na 'Máquina de Votos', vendendo formação de campanhas eleitorais.",
+    "fonte_url": "https://www.gazetadopovo.com.br/eleicoes/2026/pablo-marcal-curso-faturamento-milionario"
+   },
+   {
+    "com": "TSE",
+    "tipo_vinculo": "critica",
+    "descricao": "Alvo de condenações por abuso de poder econômico e uso indevido de meios de comunicação (esquema de cortes patrocinados).",
+    "fonte_url": "https://www.cnnbrasil.com.br/politica/pela-3a-vez-justica-eleitoral-condena-pablo-marcal-a-inelegibilidade"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Nikolas Ferreira",
+  "tipo": "pessoa",
+  "descricao": "Deputado federal (PL-MG) e influenciador digital que monetiza conteúdo de bastidores do mandato via assinaturas no Instagram, driblando restrições da Câmara.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Gustavo Gayer",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Parceiro de estratégia de monetização parlamentar via redes sociais.",
+    "fonte_url": "https://www.intercept.com.br/2024/02/29/nikolas-ferreira-e-gustavo-gayer-driblam-proibicao-e-usam-mandatos-para-ganhar-dinheiro-no-instagram"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Gustavo Gayer",
+  "tipo": "pessoa",
+  "descricao": "Deputado federal (PL-GO) e influenciador digital, monetiza conteúdo parlamentar via assinaturas no Instagram junto com Nikolas Ferreira.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Nikolas Ferreira",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Parceria na estratégia de monetização de mandato via redes sociais.",
+    "fonte_url": "https://www.intercept.com.br/2024/02/29/nikolas-ferreira-e-gustavo-gayer-driblam-proibicao-e-usam-mandatos-para-ganhar-dinheiro-no-instagram"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Monark (Bruno Aiub)",
+  "tipo": "pessoa",
+  "descricao": "Influenciador digital e ex-apresentador do Flow Podcast, condenado por injúria contra o ministro Flávio Dino e investigado por apologia ao nazismo; teve monetização e contas bloqueadas por Moraes.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Flávio Dino",
+    "tipo_vinculo": "critica",
+    "descricao": "Condenado por chamá-lo de 'gordola autoritário' em live de 2023.",
+    "fonte_url": "https://www.cartacapital.com.br/cartaexpressa/trf-3-confirma-a-condenacao-de-monark-por-ofender-dino-mas-afrouxa-pena"
+   },
+   {
+    "com": "Alexandre de Moraes",
+    "tipo_vinculo": "critica",
+    "descricao": "Teve contas e monetização bloqueadas por ordem do ministro; desbloqueio parcial em fevereiro de 2025.",
+    "fonte_url": "https://www.migalhas.com.br/quentes/424310/moraes-determina-desbloqueio-das-contas-de-monark-nas-redes-sociais"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Edir Macedo",
+  "tipo": "pessoa",
+  "descricao": "Bispo fundador da Igreja Universal do Reino de Deus e dono do Grupo Record (2ª maior TV do Brasil); alvo, em junho de 2026, de operação da Polícia Federal por fraude no Banco Digimais.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Grupo Record",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Proprietário do conglomerado de mídia, incluindo Record TV e portal R7.",
+    "fonte_url": "https://pt.wikipedia.org/wiki/Edir_Macedo"
+   },
+   {
+    "com": "Banco Digimais",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Controlador integral desde 2020, alvo da Operação Miragem da PF por gestão fraudulenta.",
+    "fonte_url": "https://noticiasdatv.uol.com.br/noticia/celebridades/banco-de-edir-macedo-dono-da-record-e-alvo-de-operacao-da-policia-federal-153117"
+   },
+   {
+    "com": "Polícia Federal",
+    "tipo_vinculo": "critica",
+    "descricao": "Investigado na Operação Miragem por crimes contra o Sistema Financeiro Nacional.",
+    "fonte_url": "https://noticiasdatv.uol.com.br/noticia/celebridades/banco-de-edir-macedo-dono-da-record-e-alvo-de-operacao-da-policia-federal-153117"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Igreja Universal do Reino de Deus (IURD)",
+  "tipo": "movimento",
+  "descricao": "Maior grupo neopentecostal do Brasil, liderado por Edir Macedo, com máquina política documentada voltada para as eleições de 2026 contra candidatos de esquerda.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Edir Macedo",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Fundador e líder da igreja, que controla também o Grupo Record.",
+    "fonte_url": "https://pt.wikipedia.org/wiki/Edir_Macedo"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Revista Oeste",
+  "tipo": "midia",
+  "descricao": "Revista digital semanal de direita fundada em 2020 por ex-jornalistas da Veja, com canal de YouTube desmonetizado em 2023 por 'conteúdo nocivo'; compartilha colunistas com a Gazeta do Povo.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Gazeta do Povo",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Ecossistema editorial compartilhado (colunistas como Alexandre Garcia, Flávio Gordon).",
+    "fonte_url": "https://pt.wikipedia.org/wiki/Revista_Oeste_(2020)"
+   },
+   {
+    "com": "YouTube",
+    "tipo_vinculo": "critica",
+    "descricao": "Teve monetização cortada em 2023 por alegado conteúdo nocivo.",
+    "fonte_url": "https://pt.wikipedia.org/wiki/Revista_Oeste_(2020)"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Bárbara Destefani",
+  "tipo": "pessoa",
+  "descricao": "Influenciadora digital do canal 'Te Atualizei', desmonetizada pelo TSE em 2022 por fake news eleitorais, investigada pelo STF, com intenção declarada de disputar o Congresso em 2026.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "TSE",
+    "tipo_vinculo": "critica",
+    "descricao": "Desmonetizada por decisão do TSE sob acusação de fake news eleitorais.",
+    "fonte_url": "https://www.congressoemfoco.com.br/noticia/50932/bolsonarista-investigada-por-fake-news-no-tse-ganha-verificacao-do-twitter"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Eduardo Bolsonaro",
+  "tipo": "pessoa",
+  "descricao": "Ex-deputado federal cassado, filho de Jair Bolsonaro, condenado pelo STF em junho de 2026 a 4 anos e 2 meses de prisão por articular sanções do governo Trump contra ministros do STF para impedir a condenação do pai.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Donald Trump",
+    "tipo_vinculo": "inteligencia",
+    "descricao": "Articulou junto ao governo Trump sanções (tarifaço, vistos, Lei Magnitsky) para pressionar o STF.",
+    "fonte_url": "https://g1.globo.com/politica/noticia/2026/06/16/moraes-vota-para-condenar-eduardo-bolsonaro-por-coacao-em-processo-sobre-trama-golpista.ghtml"
+   },
+   {
+    "com": "Alexandre de Moraes",
+    "tipo_vinculo": "critica",
+    "descricao": "Relator do processo que condenou Eduardo por coação no curso do processo.",
+    "fonte_url": "https://g1.globo.com/politica/noticia/2026/06/16/moraes-vota-para-condenar-eduardo-bolsonaro-por-coacao-em-processo-sobre-trama-golpista.ghtml"
+   },
+   {
+    "com": "Paulo Figueiredo",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Coautor do mesmo processo de coação, com caso desmembrado; ambos operam como ponte com a direita americana.",
+    "fonte_url": "https://www1.folha.uol.com.br/poder/2026/06/eduardo-bolsonaro-diz-que-julgamento-do-stf-e-sem-pe-nem-cabeca-e-visa-tira-lo-das-eleicoes.shtml"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Paulo Figueiredo",
+  "tipo": "pessoa",
+  "descricao": "Jornalista bolsonarista radicado nos EUA há mais de dez anos, denunciado junto com Eduardo Bolsonaro por coação no processo da trama golpista, com caso desmembrado.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Eduardo Bolsonaro",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Coautor do processo de coação contra o STF, atuando a partir dos EUA.",
+    "fonte_url": "https://www1.folha.uol.com.br/poder/2026/06/eduardo-bolsonaro-diz-que-julgamento-do-stf-e-sem-pe-nem-cabeca-e-visa-tira-lo-das-eleicoes.shtml"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "NetLab UFRJ",
+  "tipo": "think_tank",
+  "descricao": "Laboratório de pesquisa da UFRJ dedicado à desinformação digital e economia política da desinformação; produziu estudo mostrando viés do algoritmo do YouTube a favor de conteúdo pró-Bolsonaro/Jovem Pan.",
+  "cluster_sugerido": "criticos",
+  "relacoes": [
+   {
+    "com": "YouTube",
+    "tipo_vinculo": "critica",
+    "descricao": "Estudo empírico mostrando privilégio algorítmico a conteúdo da Jovem Pan pró-Bolsonaro.",
+    "fonte_url": "https://www.cartacapital.com.br/politica/algoritmos-do-youtube-privilegiam-entrega-de-conteudo-pro-bolsonaro-aponta-estudo"
+   }
+  ],
+  "frente": "midia-direita-br"
+ },
+ {
+  "nome": "Fábio Faria",
+  "tipo": "pessoa",
+  "descricao": "Ministro das Comunicações do Brasil (2020-2022) que anunciou parceria não formalizada com a Starlink para conectar escolas na Amazônia e tentou direcionar chamada pública da RNP em favor da empresa.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Starlink/SpaceX",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Anunciou acordo de conectividade escolar nunca formalizado; tentou favorecer a empresa em chamada pública da RNP em 2022.",
+    "fonte_url": "https://capitaldigital.com.br/fabio-faria-direciona-para-contratacao-de-satelites-de-elon-musk-em-projeto-de-internet-de-69-mil-escolas/"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "Alexandre de Moraes",
+  "tipo": "orgao_publico",
+  "descricao": "Ministro do STF que conduziu o inquérito das milícias digitais, determinou o bloqueio do X no Brasil em 2024 e, dois anos depois, arquivou o inquérito contra Musk em março de 2026 a pedido da PGR.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Elon Musk",
+    "tipo_vinculo": "critica",
+    "descricao": "Embate judicial 2024 (inquérito, multas, bloqueio do X) culminando em arquivamento em 03/2026.",
+    "fonte_url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-stf-arquiva-inquerito-contra-elon-musk/"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "Paulo Gonet",
+  "tipo": "pessoa",
+  "descricao": "Procurador-Geral da República que emitiu parecer pedindo o arquivamento do inquérito contra Elon Musk no STF, concluindo não haver provas de instrumentalização criminosa do X.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Elon Musk",
+    "tipo_vinculo": "critica",
+    "descricao": "Parecer pelo arquivamento do inquérito por falta de provas, em março de 2026.",
+    "fonte_url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-stf-arquiva-inquerito-contra-elon-musk/"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "Rachel de Oliveira Villa Nova",
+  "tipo": "pessoa",
+  "descricao": "Representante legal do X no Brasil cuja ordem de prisão por 'desobediência' a decisões de Moraes foi citada por Musk como motivo do fechamento do escritório da empresa no país em agosto de 2024.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "X Brasil",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Representante legal cuja situação motivou fechamento do escritório do X no Brasil.",
+    "fonte_url": "https://forbes.com.br/forbes-tech/2024/08/x-twitter-e-bloqueado-no-brasil-entenda-o-que-vem-a-seguir/"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "SpaceSail (Qianfan)",
+  "tipo": "empresa",
+  "descricao": "Operadora chinesa de satélites de órbita baixa autorizada pela Anatel em fevereiro de 2026 a operar no Brasil, concorrente direta da Starlink, com meta de mais de 15 mil satélites até 2030.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Starlink/SpaceX",
+    "tipo_vinculo": "critica",
+    "descricao": "Concorrência direta no mercado brasileiro de internet satelital, com risco de dumping de preços.",
+    "fonte_url": "https://tecnoblog.net/noticias/anatel-autoriza-spacesail-rival-chinesa-da-starlink-a-operar-no-brasil/"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "MPF - Ministério Público Federal",
+  "tipo": "orgao_publico",
+  "descricao": "Órgão que firmou acordo inédito no mundo com a Starlink (jun/2025) para coibir uso por garimpeiros ilegais na Amazônia, e que, junto com ANPD e Senacon, notificou o X sobre falhas do Grok em deepfakes (jan-fev/2026).",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Starlink/SpaceX",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Acordo para bloquear terminais usados em garimpo ilegal na Amazônia Legal a partir de jan/2026.",
+    "fonte_url": "https://acervo.socioambiental.org/acervo/noticias/acordo-entre-mpf-e-starlink-empresa-de-elon-musk-mira-garimpo-ilegal-em-terras"
+   },
+   {
+    "com": "xAI/Grok/X",
+    "tipo_vinculo": "critica",
+    "descricao": "Notificação conjunta com ANPD e Senacon exigindo correção de falhas de deepfakes do Grok.",
+    "fonte_url": "https://www.mpf.mp.br/o-mpf/unidades/pr-sp/noticias/mpf-anpd-e-senacon-determinam-que-x-implemente-de-forma-imediata-medidas-para-corrigir-falhas-no-grok"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "ANPD - Autoridade Nacional de Proteção de Dados",
+  "tipo": "orgao_publico",
+  "descricao": "Autoridade brasileira de proteção de dados que publicou nota técnica sobre o Grok e, junto com MPF e Senacon, exigiu correções sobre geração de deepfakes sexuais (jan-fev/2026).",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "xAI/Grok/X",
+    "tipo_vinculo": "critica",
+    "descricao": "Ação conjunta exigindo correção de violações de LGPD relacionadas a deepfakes do Grok.",
+    "fonte_url": "https://www.pdka.com.br/anpd-publica-nota-tecnica-sobre-o-sistema-grok-e-reforca-responsabilidade-no-uso-de-inteligencia-artificial/"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "Senacon - Secretaria Nacional do Consumidor",
+  "tipo": "orgao_publico",
+  "descricao": "Órgão federal de defesa do consumidor que atuou junto com MPF e ANPD para exigir correções do X/Grok sobre deepfakes (jan-fev/2026).",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "xAI/Grok/X",
+    "tipo_vinculo": "critica",
+    "descricao": "Notificação conjunta exigindo medidas imediatas contra deepfakes gerados pelo Grok.",
+    "fonte_url": "https://www.mobiletime.com.br/noticias/20/01/2026/anpd-mpf-senacon-grok/"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "Grokipedia",
+  "tipo": "empresa",
+  "descricao": "Enciclopédia online gerada por IA da xAI, lançada em 27/10/2025 como alternativa à Wikipédia, criticada por viés de direita e alucinações.",
+  "cluster_sugerido": "midia-direita-br",
+  "relacoes": [
+   {
+    "com": "Elon Musk",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Produto da xAI, empresa de Musk, posicionado explicitamente contra a Wikipédia 'woke'.",
+    "fonte_url": "https://canaltech.com.br/apps/o-que-e-grokipedia-veja-como-funciona-a-nova-enciclopedia-de-elon-musk/"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "BYD",
+  "tipo": "empresa",
+  "descricao": "Montadora chinesa cuja obra da fábrica em Camaçari (BA) foi alvo de fiscalização que resgatou 220 trabalhadores chineses em condições análogas à escravidão (dez/2024-mai/2025), gerando ação civil pública de R$257 milhões.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Ministério Público do Trabalho",
+    "tipo_vinculo": "critica",
+    "descricao": "Ação civil pública por trabalho escravo e tráfico de pessoas na obra de Camaçari.",
+    "fonte_url": "https://reporterbrasil.org.br/2025/05/byd-trabalho-escravo-trafico-pessoas-257-milhoes/"
+   },
+   {
+    "com": "Tesla",
+    "tipo_vinculo": "critica",
+    "descricao": "Concorrente direta da Tesla no mercado brasileiro e global de veículos elétricos, contraponto China-EUA no setor automotivo.",
+    "fonte_url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2025/junho/byd-e-autuada-por-submeter-trabalhadores-chineses-a-condicoes-analogas-a-escravidao-na-bahia"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "Jinjiang / Tecmonta",
+  "tipo": "empresa",
+  "descricao": "Empreiteiras que prestavam serviço à BYD na obra de Camaçari e acordaram pagar R$40 milhões em caso de trabalho escravo.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "BYD",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Empreiteiras terceirizadas na construção da fábrica da BYD, corresponsáveis pelas condições análogas à escravidão.",
+    "fonte_url": "https://www.cnnbrasil.com.br/economia/negocios/mpt-empreiteiras-pagam-r-40-mi-em-caso-de-trabalho-escravo-em-obra-da-byd/"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "GSA - General Services Administration (EUA)",
+  "tipo": "orgao_publico",
+  "descricao": "Agência federal americana que, segundo fontes da WIRED, removeu a xAI de um contrato governamental após o episódio 'MechaHitler' do Grok em julho de 2025.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "xAI",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Contrato governamental supostamente cancelado após escândalo antissemita do Grok.",
+    "fonte_url": "https://www.hardware.com.br/noticias/polemica-grok-elon-musk-ia-retirada-governo-eua/"
+   }
+  ],
+  "frente": "musk-brasil-historico"
+ },
+ {
+  "nome": "Alexandre Ramagem",
+  "tipo": "pessoa",
+  "descricao": "Ex-diretor da Abin, deputado federal, apontado pela PF como organizador do esquema de espionagem ilegal conhecido como 'Abin paralela' usando o software FirstMile.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Cognyte",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Uso do software FirstMile da Cognyte para geolocalização ilegal de celulares via Abin.",
+    "fonte_url": "https://apublica.org/2025/06/abin-paralela-como-tudo-se-conecta-espionagem-firstmile-bolsonaros-e-ramagem/"
+   },
+   {
+    "com": "Jair Bolsonaro",
+    "tipo_vinculo": "politica-eua",
+    "descricao": "Subordinado direto durante o governo Bolsonaro, executor do esquema de vigilância da 'Abin paralela'.",
+    "fonte_url": "https://www.cnnbrasil.com.br/politica/pf-conclui-abin-paralela-e-indicia-bolsonaro-ramagem-e-carlos/"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "Cognyte",
+  "tipo": "empresa",
+  "descricao": "Empresa israelense de tecnologia de vigilância, fornecedora do software FirstMile (geolocalização de celulares) e de outras ferramentas forenses usadas por órgãos de segurança em todos os estados brasileiros.",
+  "cluster_sugerido": "vigilancia-brasil",
+  "relacoes": [
+   {
+    "com": "Abin",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Fornecimento do FirstMile para rastreamento ilegal de até 10 mil celulares por ano.",
+    "fonte_url": "https://apublica.org/2025/06/abin-paralela-como-tudo-se-conecta-espionagem-firstmile-bolsonaros-e-ramagem/"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "Cellebrite",
+  "tipo": "empresa",
+  "descricao": "Empresa israelense de extração forense de dados de celulares, distribuída a forças estaduais brasileiras via 'Projeto Excel' do Ministério da Justiça durante o governo Bolsonaro.",
+  "cluster_sugerido": "vigilancia-brasil",
+  "relacoes": [
+   {
+    "com": "Ministério da Justiça e Segurança Pública (Brasil)",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Distribuição de equipamentos a forças estaduais via Seopi/Projeto Excel.",
+    "fonte_url": "https://ip.rec.br/blog/tempestade-quase-perfeita/"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "NSO Group",
+  "tipo": "empresa",
+  "descricao": "Empresa israelense fabricante do spyware Pegasus; teria negociado participação em licitação do Ministério da Justiça brasileiro com apoio de Carlos Bolsonaro, e teve reuniões não explicadas com a PF entre 2018-2020.",
+  "cluster_sugerido": "vigilancia-brasil",
+  "relacoes": [
+   {
+    "com": "Carlos Bolsonaro",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Participação em negociações para NSO entrar em licitação do MJ para expandir a 'Abin paralela'.",
+    "fonte_url": "https://www.gazetadopovo.com.br/republica/pegasus-sondada-pela-policia-federal-arma-cibernetica-e-mais-invasiva-que-a-usada-pela-abin/"
+   },
+   {
+    "com": "Polícia Federal (Brasil)",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Reuniões entre representantes da PF e executivos da NSO entre 2018-2020, sem explicações públicas.",
+    "fonte_url": "https://www.gazetadopovo.com.br/republica/pegasus-sondada-pela-policia-federal-arma-cibernetica-e-mais-invasiva-que-a-usada-pela-abin/"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "Sistema Córtex",
+  "tipo": "evento",
+  "descricao": "Plataforma de vigilância do Ministério da Justiça e Segurança Pública que integra 35.900 câmeras de leitura de placas, bases de dados de emprego (RAIS) e outras informações sensíveis, permitindo monitoramento em tempo real por dezenas de milhares de agentes.",
+  "cluster_sugerido": "vigilancia-brasil",
+  "relacoes": [
+   {
+    "com": "Ministério da Justiça e Segurança Pública (Brasil)",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Sistema operado e mantido pelo MJSP, com integração de secretarias estaduais de segurança.",
+    "fonte_url": "https://www.intercept.com.br/2020/09/21/governo-vigilancia-cortex/"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "Smart Sampa",
+  "tipo": "evento",
+  "descricao": "Programa de videomonitoramento com reconhecimento facial da Prefeitura de São Paulo, alvo de pesquisas que documentam dezenas de prisões indevidas por inconsistência do algoritmo, com viés racial documentado.",
+  "cluster_sugerido": "vigilancia-brasil",
+  "relacoes": [
+   {
+    "com": "Prefeitura de São Paulo",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Programa municipal de reconhecimento facial contestado por entidades de direitos digitais e pesquisadores.",
+    "fonte_url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-02/pesquisa-aponta-problemas-e-prisoes-indevidas-partir-do-smart-sampa"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "Huawei (segurança pública Bahia)",
+  "tipo": "empresa",
+  "descricao": "Fornecedora do sistema de reconhecimento facial usado pelo governo da Bahia desde 2018-2019, com mais de R$600 milhões investidos e mais de 1.000 prisões, incluindo casos de erro racial documentado.",
+  "cluster_sugerido": "vigilancia-brasil",
+  "relacoes": [
+   {
+    "com": "Governo do Estado da Bahia",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Fornecimento de tecnologia de reconhecimento facial para segurança pública estadual.",
+    "fonte_url": "https://www.geledes.org.br/com-mais-de-mil-prisoes-na-ba-sistema-de-reconhecimento-facial-e-criticado-por-racismo-algoritmico-inocente-ficou-preso-por-26-dias/"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "Palantir Technologies (Brasil - FNDE/MEC)",
+  "tipo": "empresa",
+  "descricao": "Empresa americana de análise de dados que presta serviços de gestão de dados do transporte escolar brasileiro desde março/2024, contratada indiretamente via marketplace AWS dentro de um contrato guarda-chuva do Serpro, sem licitação direta — gerando controvérsia sobre soberania digital.",
+  "cluster_sugerido": "vigilancia-brasil",
+  "relacoes": [
+   {
+    "com": "Serpro",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Entrada via marketplace AWS dentro de contrato guarda-chuva Serpro-Amazon, sem licitação pública direta.",
+    "fonte_url": "https://jornalggn.com.br/noticia/palantir-no-mec-a-porta-dos-fundos-da-soberania-digital/"
+   },
+   {
+    "com": "FNDE (Fundo Nacional de Desenvolvimento da Educação)",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Contratação direta pelo FNDE/MEC para gestão de dados do transporte escolar.",
+    "fonte_url": "https://jornalggn.com.br/noticia/palantir-no-mec-a-porta-dos-fundos-da-soberania-digital/"
+   },
+   {
+    "com": "Amazon Web Services (AWS)",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Entrada da Palantir no governo brasileiro via marketplace da AWS.",
+    "fonte_url": "https://jornalggn.com.br/noticia/palantir-no-mec-a-porta-dos-fundos-da-soberania-digital/"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "Serpro",
+  "tipo": "orgao_publico",
+  "descricao": "Empresa pública de tecnologia da informação do governo federal brasileiro, envolvida em duas controvérsias de vigilância/dados: venda de dados pessoais via Portaria RFB 167/2022 e intermediação do contrato Palantir-FNDE via marketplace AWS.",
+  "cluster_sugerido": "vigilancia-brasil",
+  "relacoes": [
+   {
+    "com": "Receita Federal do Brasil",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Autorização para disponibilizar dados pessoais da Receita a terceiros mediante pagamento (Portaria 167/2022).",
+    "fonte_url": "https://www.serpro.gov.br/lgpd"
+   },
+   {
+    "com": "ANPD (Autoridade Nacional de Proteção de Dados)",
+    "tipo_vinculo": "critica",
+    "descricao": "ANPD avaliou e considerou a venda de dados compatível com a LGPD, gerando controvérsia.",
+    "fonte_url": "https://geocracia.com/anpd-venda-de-dados-pelo-serpro-nao-viola-lgpd/"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "Sâmia Bomfim",
+  "tipo": "pessoa",
+  "descricao": "Deputada federal que protocolou Requerimento de Informação (RIC 8070/2025) na Câmara cobrando transparência sobre o contrato da Palantir com o FNDE.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Palantir Technologies (Brasil - FNDE/MEC)",
+    "tipo_vinculo": "critica",
+    "descricao": "Cobrança formal de transparência via requerimento de informação na Câmara dos Deputados.",
+    "fonte_url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3061334&filename=RIC+8070%2F2025"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "Rodrigo Gambale",
+  "tipo": "pessoa",
+  "descricao": "Deputado federal (Podemos/SP), autor do PL 1.828/2023 que autoriza ampla instalação de câmeras de reconhecimento facial em espaços públicos por todo o Brasil, pautado para votação em jun/2026 e criticado pelo CNDH.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "CNDH (Conselho Nacional dos Direitos Humanos)",
+    "tipo_vinculo": "critica",
+    "descricao": "CNDH emitiu nota técnica pedindo retirada de pauta ou rejeição do projeto do deputado.",
+    "fonte_url": "https://fndc.org.br/cndh-ve-risco-de-vigilancia-em-massa-e-pede-retirada-de-projeto-que-libera-reconhecimento-facial-no-brasil/"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "Axon Enterprise",
+  "tipo": "empresa",
+  "descricao": "Empresa americana fornecedora de câmeras corporais (body cameras) contratadas pela Polícia Militar de São Paulo (12.000 unidades) no programa 'Olho Vivo'.",
+  "cluster_sugerido": "vigilancia-brasil",
+  "relacoes": [
+   {
+    "com": "Polícia Militar do Estado de São Paulo",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Fornecimento de câmeras corporais para o programa Olho Vivo desde 2021.",
+    "fonte_url": "https://forumseguranca.org.br/wp-content/uploads/2025/04/cameras-corporais-pmsp-2ed.pdf"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "PGR (Procuradoria-Geral da República) - Paulo Gonet",
+  "tipo": "orgao_publico",
+  "descricao": "Órgão que pediu ao STF em dezembro/2023 a suspensão do uso de spyware por órgãos públicos, e em junho/2026 pediu que o inquérito da Abin paralela fosse remetido à primeira instância.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Alexandre de Moraes",
+    "tipo_vinculo": "inteligencia",
+    "descricao": "Solicitação formal ao ministro relator do STF sobre o destino processual do inquérito da Abin paralela.",
+    "fonte_url": "https://www.poder360.com.br/poder-justica/pgr-quer-que-investigacao-sobre-abin-paralela-va-para-1a-instancia/"
+   }
+  ],
+  "frente": "vigilancia-brasil"
+ },
+ {
+  "nome": "André Luiz Bandeira Molina",
+  "tipo": "pessoa",
+  "descricao": "Secretário de Segurança da Informação e Cibernética do GSI, designado por portaria para assinar o Acordo de Cooperação Técnica entre o GSI e a Amazon Web Services (out/2025).",
+  "relacoes": [
+   {
+    "com": "Amazon Web Services (AWS)",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Signatário designado do acordo de cooperação técnica GSI-AWS voltado ao CTIR Gov.",
+    "fonte_url": "https://www.intercept.com.br/2025/10/16/dados-secretos-do-brasil-podem-cair-nas-maos-da-amazon/"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "Marcos Antonio Amaro dos Santos",
+  "tipo": "pessoa",
+  "descricao": "Ministro do Gabinete de Segurança Institucional (GSI) que assinou a Instrução Normativa GSI nº 8/2025, regulando onde dados classificados podem ser armazenados.",
+  "relacoes": [
+   {
+    "com": "Gabinete de Segurança Institucional (GSI)",
+    "tipo_vinculo": "orgao_publico",
+    "descricao": "Ministro-chefe responsável pela normativa sobre dados sigilosos e nuvem.",
+    "fonte_url": "https://www.gov.br/gsi/pt-br/centrais-de-conteudo/noticias/2025/nota-de-esclarecimento-sobre-a-instrucao-normativa-no-8-2025-e-o-acordo-de-cooperacao-tecnica-com-a-amazon-web-services"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "Ergon Cugler",
+  "tipo": "pessoa",
+  "descricao": "Pesquisador da FGV-SP ligado ao Getip (USP) que afirma publicamente que big techs operam no Brasil 'à margem da lei' sem pagar impostos proporcionais, autor de estudo sobre influência das big techs no Estado brasileiro.",
+  "relacoes": [
+   {
+    "com": "Google",
+    "tipo_vinculo": "critica",
+    "descricao": "Aponta baixa tributação e remessa de lucros ao exterior.",
+    "fonte_url": "https://www.brasildefato.com.br/2025/07/22/pesquisador-da-fgv-big-techs-operam-no-brasil-a-margem-da-lei-e-sem-pagar-impostos/"
+   },
+   {
+    "com": "Meta",
+    "tipo_vinculo": "critica",
+    "descricao": "Mesma crítica sobre tributação e remessas ao exterior.",
+    "fonte_url": "https://www.brasildefato.com.br/2025/07/22/pesquisador-da-fgv-big-techs-operam-no-brasil-a-margem-da-lei-e-sem-pagar-impostos/"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "João Maia (deputado, PL-RN)",
+  "tipo": "pessoa",
+  "descricao": "Deputado federal que, com base em dados da Receita Federal, divulgou levantamento mostrando que big techs pagam alíquota efetiva de IRPJ+CSLL 76% menor que o restante da economia no Brasil.",
+  "relacoes": [
+   {
+    "com": "Google",
+    "tipo_vinculo": "critica",
+    "descricao": "Levantamento aponta alíquota de 4,4% sobre lucro líquido, contra 19,1% do restante das empresas.",
+    "fonte_url": "https://impostometro.com.br/noticias/interna?idNoticia=1156"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "Serpro (Serviço Federal de Processamento de Dados)",
+  "tipo": "orgao_publico",
+  "descricao": "Estatal de TI do governo federal brasileiro que opera a 'Nuvem de Governo', hospedando fisicamente infraestrutura de AWS, Google, Huawei e Oracle dentro de seus próprios data centers.",
+  "relacoes": [
+   {
+    "com": "Amazon Web Services (AWS)",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Contrato de nuvem soberana hospedado em data center do Serpro.",
+    "fonte_url": "https://www.baguete.com.br/noticias/nuvem-soberana-quase-todo-mundo-dentro"
+   },
+   {
+    "com": "Google",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Contrato de nuvem soberana.",
+    "fonte_url": "https://www.baguete.com.br/noticias/nuvem-soberana-quase-todo-mundo-dentro"
+   },
+   {
+    "com": "Huawei",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Contrato de nuvem soberana.",
+    "fonte_url": "https://www.baguete.com.br/noticias/nuvem-soberana-quase-todo-mundo-dentro"
+   },
+   {
+    "com": "Oracle",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Contrato de nuvem soberana.",
+    "fonte_url": "https://www.baguete.com.br/noticias/nuvem-soberana-quase-todo-mundo-dentro"
+   },
+   {
+    "com": "Caixa Econômica Federal",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Fornece 'nuvem soberana' rodando em ambiente Microsoft à Caixa, contrato de R$ 763,8 milhões.",
+    "fonte_url": "https://capitaldigital.com.br/caixa-adota-nuvem-soberana-do-serpro-em-ambiente-microsoft-ao-custo-de-r-7638-milhoes/"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "Dataprev (Empresa de Tecnologia e Informações da Previdência Social)",
+  "tipo": "orgao_publico",
+  "descricao": "Estatal federal responsável por sistemas da Previdência Social, com contratos de 'nuvem soberana' com AWS, Huawei e Oracle.",
+  "relacoes": [
+   {
+    "com": "Oracle",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Segunda solução de multinuvem soberana da Dataprev, após acordo prévio com Huawei.",
+    "fonte_url": "https://blogs.oracle.com/oracle-brasil/dataprev-contrata-da-oracle-sua-segunda-soluo-de-multinuvem-soberana"
+   },
+   {
+    "com": "Huawei",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Primeira parceria de nuvem soberana da Dataprev, fechada em junho.",
+    "fonte_url": "https://blogs.oracle.com/oracle-brasil/dataprev-contrata-da-oracle-sua-segunda-soluo-de-multinuvem-soberana"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "CTIR Gov (Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos de Governo)",
+  "tipo": "orgao_publico",
+  "descricao": "Órgão do GSI apontado como principal beneficiário do acordo de cooperação técnica com a AWS assinado em 2025, voltado a segurança e cibersegurança governamental.",
+  "relacoes": [
+   {
+    "com": "Amazon Web Services (AWS)",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Beneficiário direto do acordo de cooperação técnica GSI-AWS.",
+    "fonte_url": "https://www.intercept.com.br/2025/10/16/dados-secretos-do-brasil-podem-cair-nas-maos-da-amazon/"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "Febraban (Federação Brasileira de Bancos)",
+  "tipo": "orgao_publico",
+  "descricao": "Entidade que representa os bancos brasileiros e monitora fraudes financeiras via Pix, lançou com o Ministério da Justiça a Aliança Nacional de Combate a Fraudes Bancárias Digitais em resposta ao crescimento de golpes com IA/deepfake.",
+  "relacoes": [
+   {
+    "com": "Ministério da Justiça e Segurança Pública",
+    "tipo_vinculo": "brasil",
+    "descricao": "Parceria para lançar a Aliança Nacional de Combate a Fraudes Bancárias Digitais.",
+    "fonte_url": "https://febrabantech.febraban.org.br/temas/seguranca/tentativas-de-golpes-aumentam-no-brasil"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "Augusto Coutinho (deputado, Republicanos-PE)",
+  "tipo": "pessoa",
+  "descricao": "Relator do PL dos motoristas de aplicativo na Câmara dos Deputados, propôs reduzir o piso mínimo por corrida em relação à proposta original do governo Lula, gerando resistência de motoristas e protestos em 2026.",
+  "relacoes": [
+   {
+    "com": "Uber",
+    "tipo_vinculo": "brasil",
+    "descricao": "Relatoria do projeto de lei que regula a remuneração e condições de trabalho de motoristas de app, incluindo Uber.",
+    "fonte_url": "https://www.cartacapital.com.br/economia/pl-dos-apps-entenda-ponto-a-ponto-a-proposta-governo-para-motoristas-da-uber-99-e-outros/"
+   },
+   {
+    "com": "99 (DiDi)",
+    "tipo_vinculo": "brasil",
+    "descricao": "Relatoria do PL que regula 99, Uber e iFood.",
+    "fonte_url": "https://www.cartacapital.com.br/economia/pl-dos-apps-entenda-ponto-a-ponto-a-proposta-governo-para-motoristas-da-uber-99-e-outros/"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "Secom (Secretaria de Comunicação Social da Presidência)",
+  "tipo": "orgao_publico",
+  "descricao": "Órgão do governo federal responsável pela publicidade oficial, que em 2025 destinou parcela recorde (~34,5%, R$ 234,8 milhões) do orçamento de propaganda para plataformas digitais como Google e Meta, superando investimentos em TV aberta (SBT, Band).",
+  "relacoes": [
+   {
+    "com": "Google",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Repasse de ao menos R$ 64,6 milhões em publicidade oficial em 2025.",
+    "fonte_url": "https://www.em.com.br/politica/2026/04/7390656-governo-lula-amplia-verbas-de-propaganda-de-big-techs-que-superam-tvs.html"
+   },
+   {
+    "com": "Meta",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Repasse de ao menos R$ 56,9 milhões em publicidade oficial em 2025.",
+    "fonte_url": "https://www.em.com.br/politica/2026/04/7390656-governo-lula-amplia-verbas-de-propaganda-de-big-techs-que-superam-tvs.html"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "Grupo de Estudos em Tecnologia e Inovações na Gestão Pública (Getip/USP)",
+  "tipo": "think_tank",
+  "descricao": "Grupo de pesquisa da USP, com pesquisadores da UnB, autor do estudo 'Contratos, Códigos e Controle: A Influência das Big Techs no Estado Brasileiro', que quantificou ~R$ 23 bilhões destinados às big techs por governos brasileiros em quase 10 anos.",
+  "relacoes": [
+   {
+    "com": "Governo Federal do Brasil",
+    "tipo_vinculo": "critica",
+    "descricao": "Estudo crítico sobre dependência do Estado brasileiro de contratos com big techs.",
+    "fonte_url": "https://dropsdejogos.uai.com.br/developer/tecnologia/governos-brasileiros-incluindo-o-de-lula-destinaram-23-bilhoes-de-reais-para-as-big-techs-em-quase-10-anos/"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "Ministério da Saúde (Brasil)",
+  "tipo": "orgao_publico",
+  "descricao": "Em 2026 buscou parcerias tecnológicas internacionais, incluindo com a Huawei, para infraestrutura de nuvem, conectividade e IA visando os 'primeiros serviços inteligentes do SUS'.",
+  "relacoes": [
+   {
+    "com": "Huawei",
+    "tipo_vinculo": "brasil",
+    "descricao": "Reuniões sobre infraestrutura digital, nuvem e conectividade em saúde para o SUS.",
+    "fonte_url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/marco/saude-busca-aliancas-tecnologicas-mundiais-para-impulsionar-os-primeiros-servicos-inteligentes-do-sus"
+   }
+  ],
+  "frente": "economia-dependencia-br"
+ },
+ {
+  "nome": "Peter Thiel",
+  "tipo": "pessoa",
+  "descricao": "Cofundador do Palantir e da PayPal, investidor de tese anarco-capitalista; passou a residir parcialmente na Argentina em 2026, com relação pessoal e ideológica direta com Milei.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "Javier Milei",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Duas visitas à Casa Rosada (2024, 2026); afinidade anarco-capitalista declarada por ambos.",
+    "fonte_url": "https://en.mercopress.com/2026/04/23/tech-magnate-peter-thiel-meets-milei-after-a-week-of-private-contacts-with-the-argentine-government"
+   },
+   {
+    "com": "Alec Oxenford",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Oxenford acompanhou Thiel na visita de 2024 e hoje é embaixador argentino nos EUA.",
+    "fonte_url": "https://en.mercopress.com/2026/04/23/tech-magnate-peter-thiel-meets-milei-after-a-week-of-private-contacts-with-the-argentine-government"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Javier Milei",
+  "tipo": "pessoa",
+  "descricao": "Presidente da Argentina desde dez/2023, alinhado ideologicamente à tech-direita americana; investigado no caso $LIBRA por suposto pagamento de US$5 milhões ligado ao lançamento de criptomoeda.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Hayden Davis",
+    "tipo_vinculo": "critica",
+    "descricao": "Suposto acordo confidencial de US$5 milhões encontrado em celular de intermediário (caso $LIBRA), em investigação.",
+    "fonte_url": "https://chequeado.com/el-explicador/caso-libra-las-claves-del-peritaje-al-celular-de-mauricio-novelli-por-la-causa-que-involucra-a-javier-milei/"
+   },
+   {
+    "com": "Elon Musk",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Reunião na sede da Tesla; Musk declarou interesse em investir na Argentina (lítio).",
+    "fonte_url": "https://www.ambito.com/economia/elon-musk-aseguro-que-busca-invertir-la-argentina-n6063188"
+   },
+   {
+    "com": "Sur Energy/OpenAI",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Governo argentino viabilizou via RIGI o projeto Stargate Argentina de data center de US$25 bi.",
+    "fonte_url": "https://newenergyevents.com/openai-signs-letter-of-intent-for-data-center-in-patagonia-led-by-sur-energy/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Mauricio Novelli",
+  "tipo": "pessoa",
+  "descricao": "Lobista argentino cujo celular periciado revelou comunicações com Milei e rascunho de acordo ligado ao caso $LIBRA.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Javier Milei",
+    "tipo_vinculo": "critica",
+    "descricao": "Cinco ligações telefônicas registradas minutos antes do lançamento do token $LIBRA.",
+    "fonte_url": "https://chequeado.com/el-explicador/caso-libra-las-claves-del-peritaje-al-celular-de-mauricio-novelli-por-la-causa-que-involucra-a-javier-milei/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Hayden Davis",
+  "tipo": "pessoa",
+  "descricao": "Criador do token $LIBRA, cujo colapso gerou perdas a investidores e investigação envolvendo o presidente argentino.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Javier Milei",
+    "tipo_vinculo": "critica",
+    "descricao": "Suposto acordo confidencial e pagamento de US$5 milhões vinculado ao apoio público de Milei ao lançamento do $LIBRA.",
+    "fonte_url": "https://chequeado.com/el-explicador/caso-libra-las-claves-del-peritaje-al-celular-de-mauricio-novelli-por-la-causa-que-involucra-a-javier-milei/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Sur Energy",
+  "tipo": "empresa",
+  "descricao": "Empresa argentino-americana de energia que lidera o consórcio do projeto 'Stargate Argentina', data center de IA de US$25 bilhões na Patagônia em parceria com a OpenAI.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "OpenAI",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Carta de intenção assinada em outubro de 2025 para data center de até 500MW; OpenAI atuará só como comprador futuro de capacidade.",
+    "fonte_url": "https://newenergyevents.com/openai-signs-letter-of-intent-for-data-center-in-patagonia-led-by-sur-energy/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Nayib Bukele",
+  "tipo": "pessoa",
+  "descricao": "Presidente de El Salvador; fechou acordo de deportação-CECOT com Trump e mantém disputa pública com o FMI sobre compras de bitcoin.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Donald Trump",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Acordo de abril de 2025 para receber deportados no CECOT em troca de pagamento dos EUA.",
+    "fonte_url": "https://www.pbs.org/wgbh/frontline/article/trump-bukele-deportation-deal-cecot-prison-el-salvador/"
+   },
+   {
+    "com": "FMI",
+    "tipo_vinculo": "critica",
+    "descricao": "Disputa pública sobre cumprimento de condicionalidades do acordo de financiamento de US$1,4 bilhão quanto a compras de bitcoin.",
+    "fonte_url": "https://livecoins.com.br/fmi-proibe-el-salvador-de-comprar-bitcoin-e-comunidade-questiona-bukele/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "CECOT",
+  "tipo": "orgao_publico",
+  "descricao": "Centro de Confinamento do Terrorismo, megaprisão salvadorenha usada para deportados enviados pelos EUA sob acordo Trump-Bukele, tema de documentário da FRONTLINE (PBS) em 2026.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Donald Trump",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Recebimento de deportados dos EUA mediante pagamento ao governo salvadorenho.",
+    "fonte_url": "https://www.pbs.org/wgbh/frontline/article/trump-bukele-deportation-deal-cecot-prison-el-salvador/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "ByteDance",
+  "tipo": "empresa",
+  "descricao": "Controladora chinesa do TikTok; anunciou em jul/2026 seu maior data center fora da China no Ceará (Brasil), de US$39 bilhões, como hedge de soberania de dados frente a pressões regulatórias dos EUA/UE/China.",
+  "cluster_sugerido": "plataformas",
+  "relacoes": [
+   {
+    "com": "Casa dos Ventos",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "PPA de 20 anos e US$2 bilhões para energia eólica destinada ao data center de Pecém.",
+    "fonte_url": "https://www.datacenterdynamics.com/en/news/omnia-supported-by-patria-joins-data-center-of-us-9-billion-in-brazil-project/"
+   },
+   {
+    "com": "Omnia/Pátria Investimentos",
+    "tipo_vinculo": "financeira",
+    "descricao": "Pátria (via Omnia) entrou como parceira financeira do projeto de data center.",
+    "fonte_url": "https://www.datacenterdynamics.com/en/news/omnia-supported-by-patria-joins-data-center-of-us-9-billion-in-brazil-project/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Erik Prince",
+  "tipo": "pessoa",
+  "descricao": "Fundador da Blackwater/Academi; firmou 'aliança estratégica' de segurança com o Equador em 2025, gerando controvérsia sobre privatização de funções militares.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "Daniel Noboa",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Aliança estratégica anunciada em março de 2025 para combate ao crime organizado e pesca ilegal.",
+    "fonte_url": "https://www.cnn.com/2025/03/12/americas/ecuador-noboa-blackwater-erik-prince-latam-intl/index.html"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Daniel Noboa",
+  "tipo": "pessoa",
+  "descricao": "Presidente do Equador; contratou Erik Prince e Palantir para segurança e gestão aduaneira, associado por críticos a alinhamento militar-tecnológico com os EUA.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Palantir",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Contrato via CNT/SENAE para gestão de risco aduaneiro com IA (2025-2026, ~US$17,2 milhões orçados para 2026).",
+    "fonte_url": "https://www.primicias.ec/politica/aduanas-suscripcion-contrato-palantir-millones-cnt-123736/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Corporación Nacional de Telecomunicaciones (CNT)",
+  "tipo": "orgao_publico",
+  "descricao": "Estatal de telecomunicações do Equador que intermediou o contrato com a Palantir para o serviço de aduanas (SENAE).",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Palantir",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Mobilizou mais de US$6 milhões do SENAE para a plataforma Palantir Foundry.",
+    "fonte_url": "https://www.primicias.ec/politica/aduanas-suscripcion-contrato-palantir-millones-cnt-123736/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Gustavo Petro",
+  "tipo": "pessoa",
+  "descricao": "Presidente da Colômbia até 7 de agosto de 2026; sancionado pelo Tesouro dos EUA (OFAC) em outubro de 2025 por suposto envolvimento no tráfico de drogas, episódio de coerção geopolítica dos EUA sobre a região.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Donald Trump",
+    "tipo_vinculo": "critica",
+    "descricao": "Sanções da OFAC contra Petro e família; pedido de remoção da lista em julho de 2026.",
+    "fonte_url": "https://www.cnnbrasil.com.br/internacional/presidente-da-colombia-fala-com-trump-sobre-combate-as-drogas-e-sancoes/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Abelardo de la Espriella",
+  "tipo": "pessoa",
+  "descricao": "Político colombiano de direita apoiado por Trump, sucessor de Petro na presidência da Colômbia a partir de agosto de 2026.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Donald Trump",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Apoio político declarado de Trump à sucessão de Petro.",
+    "fonte_url": "https://www.cnnbrasil.com.br/internacional/presidente-da-colombia-fala-com-trump-sobre-combate-as-drogas-e-sancoes/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Huawei Cloud",
+  "tipo": "empresa",
+  "descricao": "Braço de nuvem da Huawei que expandiu presença regional na América Latina em 2026 (Chile, Brasil, México), incluindo interesse em cabo submarino Chile-Ásia, disputando espaço com hiperescaladores americanos.",
+  "cluster_sugerido": "plataformas",
+  "relacoes": [
+   {
+    "com": "Chile",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Primeira nuvem pública regional da Huawei na América Latina inaugurada no Chile; interesse em cabo submarino gerou revogação de vistos de funcionários chilenos.",
+    "fonte_url": "https://ohmygeek.net/2026/02/24/relacion-huawei-cable-submarino-chile/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "CENIA (Centro Nacional de Inteligencia Artificial, Chile)",
+  "tipo": "think_tank",
+  "descricao": "Instituição chilena que liderou o desenvolvimento do LatamGPT, modelo de IA aberto para soberania digital regional, lançado em fevereiro de 2026.",
+  "cluster_sugerido": "brasil",
+  "relacoes": [
+   {
+    "com": "Gabriel Boric",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Presidente chileno participou do lançamento do LatamGPT como iniciativa de soberania tecnológica regional.",
+    "fonte_url": "https://www.intellinews.com/chile-launches-latam-gpt-in-push-for-regional-ai-sovereignty-425563/"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Claudia Sheinbaum",
+  "tipo": "pessoa",
+  "descricao": "Presidente do México; negociou pausa em tarifas de Trump (fev/2025) e promoveu lei de aceleração de licenciamento elétrico para atrair data centers e nearshoring.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Donald Trump",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Acordo de fevereiro de 2025 para suspender tarifas em troca de reforço militar na fronteira.",
+    "fonte_url": "https://www.supplychaindive.com/news/plan-mexico-nearshoring-incentives-sheinbaum/738202/"
+   },
+   {
+    "com": "CloudHQ",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "CloudHQ anunciou US$4,8 bilhões para seis data centers em Querétaro sob novo marco regulatório mexicano.",
+    "fonte_url": "https://www.whitecase.com/insight-our-thinking/latin-america-focus-2025/mexico-brazil-latam-data-center-boom"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "xAI",
+  "tipo": "empresa",
+  "descricao": "Empresa de IA de Elon Musk (Grok), adquirida pela SpaceX em fevereiro de 2026 por US$250 bilhões (all-stock); integrada ao projeto Tesla-xAI 'Macrohard' em março de 2026.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "SpaceX",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Aquisição all-stock da xAI pela SpaceX avaliando-a em US$250 bilhões.",
+    "fonte_url": "https://www.cnbc.com/2026/03/11/musk-unveils-joint-tesla-xai-project-macrohard.html"
+   },
+   {
+    "com": "Tesla",
+    "tipo_vinculo": "financeira",
+    "descricao": "Tesla investiu US$2 bilhões na Série E da xAI (jan/2026) e lançou projeto conjunto 'Macrohard'.",
+    "fonte_url": "https://www.cnbc.com/2026/03/11/musk-unveils-joint-tesla-xai-project-macrohard.html"
+   }
+  ],
+  "frente": "latam-paralelos"
+ },
+ {
+  "nome": "Brendan Carr",
+  "tipo": "pessoa",
+  "descricao": "Chairman da FCC desde jan/2025, autor do capítulo sobre a FCC no Project 2025; usou a autoridade de licenciamento de radiodifusão como instrumento de pressão política contra ABC/Disney, CBS e outras emissoras críticas a Trump.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Donald Trump",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Executa pressão regulatória sobre emissoras coincidindo com demandas públicas de Trump contra Jimmy Kimmel e ABC.",
+    "fonte_url": "https://www.npr.org/2025/09/19/nx-s1-5546764/fcc-brendan-carr-kimmel-trump-free-speech"
+   },
+   {
+    "com": "Walt Disney Company / ABC",
+    "tipo_vinculo": "critica",
+    "descricao": "Ordenou renovação antecipada e ameaçou revogar licenças de 8 estações afiliadas à ABC.",
+    "fonte_url": "https://docs.fcc.gov/public/attachments/DOC-422450A1.pdf"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "Kash Patel",
+  "tipo": "pessoa",
+  "descricao": "Diretor do FBI desde 2025, crítico histórico da agência que fechou a unidade de auditoria de vigilância FISA e é acusado por democratas de criar um 'Payback Squad' para perseguir opositores políticos de Trump.",
+  "cluster_sugerido": "inteligencia",
+  "relacoes": [
+   {
+    "com": "Donald Trump",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Nomeado por Trump; crítico do 'deep state', mantém lista de 60 nomes de supostos inimigos.",
+    "fonte_url": "https://www.judiciary.senate.gov/press/dem/releases/radical-extremists-kash-patel-would-weaponize-the-fbi-to-target-enemies-of-trump-not-enemies-of-america"
+   },
+   {
+    "com": "James Comey",
+    "tipo_vinculo": "critica",
+    "descricao": "Alvo alegado do 'Payback Squad' do FBI segundo reportagem da NOTUS.",
+    "fonte_url": "https://democrats-judiciary.house.gov/sites/evo-subsites/democrats-judiciary.house.gov/files/evo-media-document/2026-06-15-raskin-to-patel-fbi-re-bonuses.pdf"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "Tulsi Gabbard",
+  "tipo": "pessoa",
+  "descricao": "Diretora de Inteligência Nacional (DNI) 2025-2026; reduziu orçamento e força-tarefa de reforma da comunidade de inteligência, e esteve presente em operação do FBI ligada a eleição de 2020 na Geórgia.",
+  "cluster_sugerido": "inteligencia",
+  "relacoes": [
+   {
+    "com": "Donald Trump",
+    "tipo_vinculo": "ideologica",
+    "descricao": "Nomeada por Trump; presente a seu pedido durante busca do FBI em escritório eleitoral.",
+    "fonte_url": "https://en.wikipedia.org/wiki/Tulsi_Gabbard"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "xAI / Grok",
+  "tipo": "empresa",
+  "descricao": "Empresa de IA de Elon Musk, dona do chatbot Grok, protagonista do episódio 'MechaHitler' (jul/2025) e da enciclopédia Grokipedia; recebeu contrato de US$200M do CDAO/Pentágono apesar de controvérsias antissemitas e de segurança.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Elon Musk",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Fundador e controlador da xAI.",
+    "fonte_url": "https://www.theguardian.com/technology/2025/jul/14/elon-musk-grok-ai-chatbot-x-linda-yaccarino"
+   },
+   {
+    "com": "Departamento de Defesa dos EUA (CDAO)",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Contrato de até US$200 milhões para desenvolvimento de IA agêntica em segurança nacional, apesar do escândalo MechaHitler.",
+    "fonte_url": "https://www.ai.mil/latest/news-press/pr-view/article/4242822/cdao-announces-partnerships-with-frontier-ai-companies-to-address-national-secu"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "General Services Administration (GSA) / OneGov",
+  "tipo": "orgao_publico",
+  "descricao": "Agência federal de compras que negociou contratos de US$1/ano com OpenAI e Anthropic e US$0,47 com Google para acesso governamental amplo a IA, via revendedor Carahsoft.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "OpenAI",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Contrato de US$1/ano para ChatGPT Enterprise em toda a administração federal.",
+    "fonte_url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-strikes-onegov-deal-with-anthropic-08122025"
+   },
+   {
+    "com": "Anthropic",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Contrato de US$1/ano para Claude for Government em todos os três poderes.",
+    "fonte_url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-strikes-onegov-deal-with-anthropic-08122025"
+   },
+   {
+    "com": "Carahsoft",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Revendedor via o qual os acordos OneGov foram formalizados, criticado por falta de concorrência.",
+    "fonte_url": "https://federalnewsnetwork.com/contractsawards/2025/08/gsas-1-awards-for-ai-tools-come-under-protest"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "Ask Sage",
+  "tipo": "empresa",
+  "descricao": "Empresa de IA para governo que protestou formalmente contra os contratos de US$1 da GSA com OpenAI/Anthropic/Google, alegando violação de leis de aquisição federal; protesto rejeitado pelo GAO por razões processuais.",
+  "cluster_sugerido": "criticos",
+  "relacoes": [
+   {
+    "com": "General Services Administration (GSA) / OneGov",
+    "tipo_vinculo": "critica",
+    "descricao": "Protestou contra os acordos OneGov por falta de concorrência e custos ocultos.",
+    "fonte_url": "https://www.washingtontechnology.com/contracts/2025/12/gao-dismisses-protests-challenging-gsas-1-gen-ai-pacts/410298"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "Greg Brockman",
+  "tipo": "pessoa",
+  "descricao": "Cofundador e presidente da OpenAI; ele e sua esposa Anna Brockman investiram US$100 milhões iniciais no super PAC de IA 'Leading the Future' e são grandes doadores da MAGA Inc.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "Leading the Future (PAC)",
+    "tipo_vinculo": "financeira",
+    "descricao": "Investimento inicial de US$100 milhões no super PAC voltado a temas de IA.",
+    "fonte_url": "https://issueone.org/articles/big-tech-lobbying-2025-q3"
+   },
+   {
+    "com": "MAGA Inc.",
+    "tipo_vinculo": "financeira",
+    "descricao": "Entre os maiores doadores do super PAC pró-Trump.",
+    "fonte_url": "https://www.cbsnews.com/news/billionaires-dark-money-fuel-questions-ahead-of-2026-midterms"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "Think Big (PAC)",
+  "tipo": "movimento",
+  "descricao": "Super PAC financiado pela OpenAI que gastou mais de US$2 milhões atacando o democrata Alex Bores em primária de NY em 2026, revelando disputa eleitoral direta entre OpenAI e Anthropic.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "OpenAI",
+    "tipo_vinculo": "financeira",
+    "descricao": "Financiado pela OpenAI.",
+    "fonte_url": "https://www.brennancenter.org/our-work/research-reports/money-politics-roundup-may-2026"
+   },
+   {
+    "com": "Alex Bores",
+    "tipo_vinculo": "critica",
+    "descricao": "Alvo de ataques publicitários do PAC.",
+    "fonte_url": "https://www.brennancenter.org/our-work/research-reports/money-politics-roundup-may-2026"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "Sergey Brin",
+  "tipo": "pessoa",
+  "descricao": "Cofundador do Google/Alphabet; doou pelo menos US$82 milhões a super PAC californiano contra imposto sobre bilionários, mesmo após se mudar para Nevada.",
+  "cluster_sugerido": "techElite",
+  "relacoes": [
+   {
+    "com": "Golden State Promise / super PAC anti-imposto",
+    "tipo_vinculo": "financeira",
+    "descricao": "Maior doador de PAC estadual contra imposto sobre bilionários na Califórnia.",
+    "fonte_url": "https://www.theguardian.com/us-news/2026/jun/01/tech-billionaires-california-elections"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "Chris Larsen",
+  "tipo": "pessoa",
+  "descricao": "Magnata de criptomoedas (Ripple Labs) que financiou super PACs californianos, incluindo o Golden State Promise, com US$10 milhões contra imposto sobre bilionários.",
+  "cluster_sugerido": "cripto",
+  "relacoes": [
+   {
+    "com": "Ripple Labs",
+    "tipo_vinculo": "propriedade",
+    "descricao": "Fundador/executivo.",
+    "fonte_url": "https://www.theguardian.com/us-news/2026/jun/01/tech-billionaires-california-elections"
+   },
+   {
+    "com": "Golden State Promise (PAC)",
+    "tipo_vinculo": "financeira",
+    "descricao": "Financiou o PAC com US$10 milhões.",
+    "fonte_url": "https://www.theguardian.com/us-news/2026/jun/01/tech-billionaires-california-elections"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "Nexstar Media Group",
+  "tipo": "midia",
+  "descricao": "Conglomerado de emissoras de TV que, junto com Sinclair, retirou preventivamente o programa de Jimmy Kimmel do ar após pressão da FCC/Trump em set/2025, e tem negócios pendentes de aprovação regulatória federal.",
+  "cluster_sugerido": "plataformas",
+  "relacoes": [
+   {
+    "com": "Brendan Carr",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Elogiado por Carr no X por 'fazer a coisa certa' ao suspender Kimmel.",
+    "fonte_url": "https://www.nbcnews.com/business/media/jimmy-kimmel-suspension-brendan-carr-trumps-fcc-chair-rcna232091"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "Sinclair Broadcast Group",
+  "tipo": "midia",
+  "descricao": "Conglomerado de emissoras que suspendeu o programa de Jimmy Kimmel preventivamente após pressão da FCC/Trump, com negócios regulatórios pendentes.",
+  "cluster_sugerido": "plataformas",
+  "relacoes": [
+   {
+    "com": "Brendan Carr",
+    "tipo_vinculo": "uso-contrato",
+    "descricao": "Suspendeu Kimmel horas após pressão pública de Trump e Carr.",
+    "fonte_url": "https://www.nbcnews.com/business/media/jimmy-kimmel-suspension-brendan-carr-trumps-fcc-chair-rcna232091"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "Jimmy Kimmel",
+  "tipo": "pessoa",
+  "descricao": "Apresentador de late-night da ABC suspenso após comentários sobre o assassino de Charlie Kirk, tornando-se símbolo do 'jawboning' reverso do governo Trump contra a mídia.",
+  "cluster_sugerido": "criticos",
+  "relacoes": [
+   {
+    "com": "Brendan Carr",
+    "tipo_vinculo": "critica",
+    "descricao": "Alvo de ameaças de revogação de licença por comentários no ar.",
+    "fonte_url": "https://www.theguardian.com/tv-and-radio/2025/sep/18/brendan-carr-fcc-jimmy-kimmel"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "House Oversight Committee (Democratas)",
+  "tipo": "orgao_publico",
+  "descricao": "Comitê da Câmara dos Deputados que divulgou tranches de documentos do espólio de Epstein citando Musk, Thiel e Bannon, pressionando por transparência total.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Elon Musk",
+    "tipo_vinculo": "critica",
+    "descricao": "Divulgou documentos citando contatos de Musk com Epstein.",
+    "fonte_url": "https://oversightdemocrats.house.gov/news/press-releases/oversight-democrats-release-third-batch-documents-jeffrey-epstein-estate"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ },
+ {
+  "nome": "Ohio Works / America Works Fund",
+  "tipo": "movimento",
+  "descricao": "Entidade sem fins lucrativos (não obrigada a divulgar doadores) que fez a maior doação individual (US$3,1 milhões) a um PAC pró-John Cornyn, ilustrando o uso de dinheiro obscuro (dark money) no ciclo eleitoral de 2026 ligado a redes de doadores tech/conservadoras.",
+  "cluster_sugerido": "politica-eua",
+  "relacoes": [
+   {
+    "com": "Texans for a Conservative Majority (PAC)",
+    "tipo_vinculo": "financeira",
+    "descricao": "Maior doação individual registrada ao PAC.",
+    "fonte_url": "https://www.cbsnews.com/news/billionaires-dark-money-fuel-questions-ahead-of-2026-midterms"
+   }
+  ],
+  "frente": "eventos-eua-2026"
+ }
+]

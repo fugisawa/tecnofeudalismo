@@ -1,0 +1,658 @@
+---
+import Base from '../layouts/Base.astro';
+
+// Quatro movimentos — como funcionam / como se articulam / o que quebram / o Brasil.
+// Não são "marcadores para provar uma tese": são as partes da investigação.
+const movimentos = [
+  {
+    n: '01',
+    slug: 'forcas',
+    titulo: 'As forças',
+    pergunta: 'Como a máquina funciona?',
+    desc: 'As quatro forças e o mecanismo de cada uma — o que extraem, de onde vem o poder, por que é difícil escapar.',
+    dentro: [
+      'Redes sociais e o algoritmo',
+      'Hyperscalers e a nuvem',
+      'Os bilionários',
+      'A IA: capex e concentração',
+    ],
+  },
+  {
+    n: '02',
+    slug: 'articulacao',
+    titulo: 'Como se articulam',
+    pergunta: 'Como o poder se conecta?',
+    desc: 'A fusão com o Estado e a malha de dinheiro, ideologia e contratos que liga os atores. É aqui que a rede vive — para entender a interação, não para imputar coordenação.',
+    dentro: [
+      'A fusão com o Estado',
+      'Dinheiro, ideologia, contratos',
+      'A rede de atores (grafo)',
+    ],
+  },
+  {
+    n: '03',
+    slug: 'efeitos',
+    titulo: 'Os efeitos',
+    pergunta: 'O que isso quebra?',
+    desc: 'O dano no resto da sociedade — onde o poder de infraestrutura encosta na vida das pessoas, das instituições e do mercado.',
+    dentro: [
+      'Democracia e eleições',
+      'O Estado e a soberania',
+      'A economia e o trabalho',
+      'Vigilância e direitos',
+    ],
+  },
+  {
+    n: '04',
+    slug: 'brasil',
+    titulo: 'O Brasil de perto',
+    pergunta: 'E aqui?',
+    desc: 'O país regulando, sofrendo coerção, leiloando infraestrutura e indo às urnas — o caso-limite mundial de pressão por regular plataformas.',
+    dentro: [
+      'Regulação e enforcement',
+      'Coerção: a Seção 301 e o Pix',
+      'Dependência e soberania',
+      'Eleições 2026 e a mídia da direita',
+    ],
+  },
+];
+
+// O retrato até aqui — o que a evidência sustenta, com o grau à mostra (sem palanque de método).
+const achados = [
+  {
+    t: 'A fusão entre elite tecnológica e Estado se institucionalizou — e é documentável sem conspiração.',
+    d: 'CEOs de Nvidia, Meta e Oracle no conselho de ciência do presidente; o formulador das deportações com ações da principal contratada de vigilância. Filings e cartas do Senado, não boatos.',
+    tag: 'confirmado',
+  },
+  {
+    t: 'O aparato de vigilância virou-se para dentro.',
+    d: 'US$ 75 bi ao ICE; cruzamento Medicaid×imigração documentado; a FCC usada como retaliação contra emissoras. Mission creep para cidadãos e manifestantes.',
+    tag: 'confirmado',
+  },
+  {
+    t: 'A economia da IA carrega risco sistêmico — bancos centrais já alertaram.',
+    d: '~US$ 725 bi de capex (2026e) e ~US$ 1 tri em compromissos circulares da OpenAI. BIS, FMI e Bank of England falaram em bolha. Houve correção, não colapso — a demanda existe; o risco está na arquitetura financeira.',
+    tag: 'estimado',
+  },
+  {
+    t: 'O Brasil virou o caso-limite mundial de coerção por regular plataformas.',
+    d: 'Tarifa de 50% citando o julgamento de Bolsonaro; Magnitsky contra um ministro do STF. A Seção 301 reposicionou o ataque: o Pix — gratuito, público — foi classificado como concorrência desleal.',
+    tag: 'confirmado',
+  },
+  {
+    t: 'A dependência brasileira se aprofunda sob o nome de soberania.',
+    d: '“Nuvem soberana” = hardware estrangeiro dentro de data center estatal; o maior data center do país servirá ao TikTok global — energia e água brasileiras, computação para fora.',
+    tag: 'confirmado',
+  },
+  {
+    t: 'A resistência existe — mas é fragmentada e reativa.',
+    d: 'O STF reescreveu a responsabilidade das plataformas; a ANPD virou agência plena; o CADE abriu o iOS. Mas o Legislativo travou e o governo dobrou a verba publicitária às plataformas que confronta.',
+    tag: 'confirmado',
+  },
+];
+
+const camadas = [
+  {
+    n: '01',
+    titulo: 'A investigação',
+    tempo: '5 min',
+    desc: 'Você está aqui. As quatro partes: como funcionam, como se articulam, o que quebram e o Brasil.',
+    links: [
+      { href: '/forcas', label: 'As forças →' },
+      { href: '/efeitos', label: 'Os efeitos →' },
+    ],
+  },
+  {
+    n: '02',
+    titulo: 'Explorar',
+    tempo: 'interativo',
+    desc: 'A investigação como território: os personagens, as ligações, o calendário do que ainda vai acontecer.',
+    links: [
+      { href: '/atores', label: 'O elenco →' },
+      { href: '/articulacao', label: 'A rede de poder →' },
+      { href: '/linha-do-tempo', label: 'Linha do tempo viva →' },
+    ],
+  },
+  {
+    n: '03',
+    titulo: 'A fundo',
+    tempo: 'citável',
+    desc: 'O dossiê completo, os briefings temáticos e uma nota honesta sobre as fontes e os limites.',
+    links: [
+      { href: '/dossie', label: 'Dossiê (12 partes) →' },
+      { href: '/briefings', label: 'Briefings →' },
+      { href: '/sobre', label: 'Fontes e limites →' },
+    ],
+  },
+];
+---
+
+<Base
+  title="Tecnofeudalismo — como plataformas, nuvem, bilionários e IA capturam o poder"
+  active="inicio"
+>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <span class="hero__crop hero__crop--tl" aria-hidden="true"></span>
+    <span class="hero__crop hero__crop--br" aria-hidden="true"></span>
+    <span class="hero__ghost" aria-hidden="true">PODER</span>
+
+    <div class="shell hero__inner">
+      <p class="kicker reveal hero__kicker">
+        O poder da infraestrutura digital · EUA → Brasil
+      </p>
+      <h1 class="hero__title reveal">
+        Como as plataformas, a nuvem, os bilionários e a IA{' '}
+        <span class="hl">capturam</span> a economia, o Estado e a democracia.
+      </h1>
+      <p class="hero__dek reveal">
+        Não uma tese a defender — uma <strong>investigação</strong> sobre como
+        esse poder funciona, como se articula e o que faz com o resto de nós.
+        Com o Brasil no centro.
+      </p>
+      <p class="hero__meta mono reveal">
+        redes sociais &nbsp;·&nbsp; hyperscalers &nbsp;·&nbsp; bilionários
+        &nbsp;·&nbsp; IA &nbsp;·&nbsp; vigilância &nbsp;·&nbsp; v3.0 · jul 2026
+      </p>
+      <a class="hero__scroll reveal" href="#movimentos" aria-label="Começar">
+        <span class="mono">Começar</span>
+        <span class="hero__arrow" aria-hidden="true"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ MOVIMENTOS ============ -->
+  <section class="marcadores shell" id="movimentos">
+    <header class="sec-head" data-inview>
+      <p class="kicker">A investigação</p>
+      <h2>Quatro movimentos</h2>
+      <p class="sec-head__dek">
+        Não um conceito a arbitrar, mas um sistema a entender: como a máquina
+        funciona, como as peças se conectam, o que ela quebra — e o que tudo isso
+        faz com o Brasil.
+      </p>
+    </header>
+
+    <ol class="marc-list">
+      {
+        movimentos.map((m, i) => (
+          <li class="marc" data-inview style={`--i:${i}`}>
+            <a class="marc__link" href={`/${m.slug}`}>
+              <span class="marc__num">{m.n}</span>
+              <div class="marc__body">
+                <p class="marc__pergunta">{m.pergunta}</p>
+                <h3 class="marc__titulo">{m.titulo}</h3>
+                <p class="marc__desc">{m.desc}</p>
+                <p class="marc__dentro mono">
+                  <span class="marc__dentro-label">Dentro</span>{' '}
+                  {m.dentro.join(' · ')}
+                </p>
+              </div>
+              <div class="marc__aside">
+                <span class="marc__parte mono">Parte {m.n}</span>
+                <span class="marc__go" aria-hidden="true">Entrar →</span>
+              </div>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  <!-- ============ O RETRATO ATÉ AQUI ============ -->
+  <section class="conclusoes" id="achados">
+    <div class="shell">
+      <header class="sec-head" data-inview>
+        <p class="kicker">O retrato até aqui</p>
+        <h2>O que já está claro</h2>
+        <p class="sec-head__dek">
+          Não conclusões que “provam” um rótulo — o que a evidência sustenta sobre
+          como esse poder opera e o que ele produz. Cada item traz o grau de
+          confiança à mostra.
+        </p>
+      </header>
+
+      <ol class="conc-grid">
+        {
+          achados.map((c, i) => (
+            <li class="conc" data-inview style={`--i:${i % 4}`}>
+              <span class="conc__num mono">{String(i + 1).padStart(2, '0')}</span>
+              <div class="conc__body">
+                <p class="conc__t">{c.t}</p>
+                <p class="conc__d">{c.d}</p>
+              </div>
+              <span
+                class:list={['tag', `tag--${c.tag}`]}
+              >
+                {c.tag === 'estimado' ? 'Confirmado · Estimado' : 'Confirmado'}
+              </span>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ CAMADAS / COMO LER ============ -->
+  <section class="camadas shell" aria-labelledby="camadas-h">
+    <header class="sec-head" data-inview>
+      <p class="kicker">Como ler</p>
+      <h2 id="camadas-h">Três camadas, um só argumento</h2>
+    </header>
+    <div class="cam-grid">
+      {
+        camadas.map((c, i) => (
+          <article class="cam" data-inview style={`--i:${i}`}>
+            <div class="cam__top">
+              <span class="cam__num mono">{c.n}</span>
+              <span class="cam__tempo mono">{c.tempo}</span>
+            </div>
+            <h3 class="cam__titulo">{c.titulo}</h3>
+            <p class="cam__desc">{c.desc}</p>
+            <ul class="cam__links">
+              {c.links.map((l) => (
+                <li>
+                  <a href={l.href}>{l.label}</a>
+                </li>
+              ))}
+            </ul>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <style>
+    /* ---------- HERO ---------- */
+    .hero {
+      position: relative;
+      min-height: min(92vh, 780px);
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      padding: var(--s-9) 0 var(--s-8);
+      border-bottom: 1px solid var(--rule);
+    }
+    .hero__inner {
+      position: relative;
+      z-index: 2;
+    }
+    .hero__ghost {
+      position: absolute;
+      right: -2%;
+      top: 50%;
+      transform: translateY(-50%) rotate(-90deg);
+      transform-origin: center;
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: clamp(6rem, 22vw, 20rem);
+      letter-spacing: -0.04em;
+      color: transparent;
+      -webkit-text-stroke: 1px rgba(236, 228, 210, 0.05);
+      user-select: none;
+      z-index: 1;
+      white-space: nowrap;
+      pointer-events: none;
+    }
+    .hero__crop {
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      z-index: 3;
+      opacity: 0.5;
+    }
+    .hero__crop--tl {
+      top: 1.6rem;
+      left: 1.6rem;
+      border-top: 1px solid var(--signal);
+      border-left: 1px solid var(--signal);
+    }
+    .hero__crop--br {
+      bottom: 1.6rem;
+      right: 1.6rem;
+      border-bottom: 1px solid var(--signal);
+      border-right: 1px solid var(--signal);
+    }
+    .hero__kicker {
+      margin-bottom: var(--s-5);
+    }
+    .hero__title {
+      font-size: var(--step-5);
+      font-variation-settings: 'opsz' 144, 'SOFT' 0, 'WONK' 1;
+      font-weight: 500;
+      line-height: 1.02;
+      letter-spacing: -0.025em;
+      margin: 0 0 var(--s-5);
+      max-width: 24ch;
+      animation-delay: 80ms;
+    }
+    .hero__title .hl {
+      color: var(--signal);
+      font-style: italic;
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    .hero__dek {
+      font-size: var(--step-1);
+      color: var(--bone-dim);
+      max-width: 52ch;
+      line-height: 1.5;
+      margin: 0 0 var(--s-5);
+      animation-delay: 160ms;
+    }
+    .hero__meta {
+      font-size: 0.74rem;
+      color: var(--bone-faint);
+      letter-spacing: 0.02em;
+      margin: 0 0 var(--s-7);
+      animation-delay: 240ms;
+    }
+    .hero__scroll {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.7rem;
+      border: 0;
+      color: var(--bone);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      animation-delay: 320ms;
+    }
+    .hero__arrow {
+      width: 2.4rem;
+      height: 1px;
+      background: var(--signal);
+      position: relative;
+      transition: width var(--dur) var(--ease-out);
+    }
+    .hero__arrow::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: -3px;
+      width: 7px;
+      height: 7px;
+      border-top: 1px solid var(--signal);
+      border-right: 1px solid var(--signal);
+      transform: rotate(45deg);
+    }
+    .hero__scroll:hover .hero__arrow {
+      width: 3.4rem;
+    }
+
+    /* ---------- SECTION HEAD ---------- */
+    .sec-head {
+      max-width: 60ch;
+      margin-bottom: var(--s-7);
+    }
+    .sec-head h2 {
+      margin: 0.4rem 0 0.6rem;
+    }
+    .sec-head__dek {
+      color: var(--bone-dim);
+      font-size: var(--step-0);
+      margin: 0;
+      max-width: 56ch;
+    }
+
+    /* ---------- MOVIMENTOS ---------- */
+    .marcadores {
+      padding: var(--s-9) 0 var(--s-8);
+    }
+    .marc-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      border-top: 1px solid var(--rule);
+    }
+    .marc {
+      border-bottom: 1px solid var(--rule);
+    }
+    .js .marc {
+      opacity: 0;
+    }
+    .marc.is-inview {
+      animation: rise var(--dur-slow) var(--ease-out) both;
+      animation-delay: calc(var(--i) * 90ms);
+    }
+    .marc__link {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: var(--s-5);
+      align-items: start;
+      padding: var(--s-6) var(--s-2);
+      border: 0;
+      color: inherit;
+      transition: background var(--dur) var(--ease-out),
+        padding-left var(--dur) var(--ease-out);
+    }
+    .marc__link:hover {
+      background: linear-gradient(
+        90deg,
+        rgba(214, 72, 47, 0.06),
+        transparent 70%
+      );
+      padding-left: var(--s-4);
+    }
+    .marc__num {
+      font-family: var(--font-display);
+      font-size: clamp(2.6rem, 6vw, 4.6rem);
+      font-variation-settings: 'opsz' 144, 'WONK' 1;
+      font-weight: 460;
+      line-height: 0.8;
+      color: var(--bone-ghost);
+      transition: color var(--dur) var(--ease-out);
+      min-width: 2ch;
+      font-feature-settings: 'tnum' 1;
+    }
+    .marc__link:hover .marc__num {
+      color: var(--signal);
+    }
+    .marc__pergunta {
+      font-family: var(--font-display);
+      font-style: italic;
+      font-variation-settings: 'opsz' 40, 'SOFT' 60;
+      color: var(--amber);
+      font-size: var(--step-1);
+      margin: 0 0 0.15em;
+    }
+    .marc__titulo {
+      font-size: var(--step-2);
+      margin: 0 0 0.4rem;
+      color: var(--bone);
+    }
+    .marc__desc {
+      color: var(--bone-dim);
+      max-width: 60ch;
+      margin: 0 0 0.7rem;
+    }
+    .marc__dentro {
+      font-size: 0.74rem;
+      color: var(--bone-faint);
+      letter-spacing: 0.01em;
+      margin: 0;
+    }
+    .marc__dentro-label {
+      color: var(--signal);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-right: 0.75em;
+    }
+    .marc__aside {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: var(--s-3);
+      text-align: right;
+      min-width: max-content;
+    }
+    .marc__parte {
+      font-size: 0.68rem;
+      color: var(--bone-faint);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .marc__go {
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      color: var(--bone-dim);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: color var(--dur-fast) var(--ease-out);
+    }
+    .marc__link:hover .marc__go {
+      color: var(--signal);
+    }
+
+    /* ---------- ACHADOS ---------- */
+    .conclusoes {
+      padding: var(--s-8) 0;
+      background: var(--ink-950);
+      border-block: 1px solid var(--rule);
+    }
+    .conc-grid {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0;
+      border-top: 1px solid var(--rule);
+      border-left: 1px solid var(--rule);
+    }
+    .conc {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: var(--s-4);
+      padding: var(--s-6) var(--s-5);
+      border-right: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      position: relative;
+    }
+    .js .conc {
+      opacity: 0;
+    }
+    .conc.is-inview {
+      animation: rise var(--dur-slow) var(--ease-out) both;
+      animation-delay: calc(var(--i) * 80ms);
+    }
+    .conc__num {
+      color: var(--signal);
+      font-size: 0.9rem;
+      padding-top: 0.2rem;
+    }
+    .conc__t {
+      font-family: var(--font-display);
+      font-variation-settings: 'opsz' 34;
+      font-size: 1.14rem;
+      line-height: 1.28;
+      color: var(--bone);
+      margin: 0 0 0.5rem;
+    }
+    .conc__d {
+      font-size: 0.94rem;
+      color: var(--bone-dim);
+      line-height: 1.52;
+      margin: 0 0 0.9rem;
+    }
+
+    /* ---------- CAMADAS ---------- */
+    .camadas {
+      padding: var(--s-9) 0 0;
+    }
+    .cam-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--s-5);
+    }
+    .cam {
+      border: 1px solid var(--rule);
+      border-radius: var(--radius-lg);
+      padding: var(--s-6) var(--s-5) var(--s-6);
+      background: var(--ink-850);
+      display: flex;
+      flex-direction: column;
+      transition: border-color var(--dur) var(--ease-out),
+        transform var(--dur) var(--ease-out);
+    }
+    .js .cam {
+      opacity: 0;
+    }
+    .cam.is-inview {
+      animation: rise var(--dur-slow) var(--ease-out) both;
+      animation-delay: calc(var(--i) * 90ms);
+    }
+    .cam:hover {
+      border-color: var(--rule-strong);
+      transform: translateY(-3px);
+    }
+    .cam__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: var(--s-4);
+    }
+    .cam__num {
+      font-size: 1.4rem;
+      color: var(--signal);
+    }
+    .cam__tempo {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--bone-faint);
+    }
+    .cam__titulo {
+      margin: 0 0 0.5rem;
+      font-size: var(--step-1);
+    }
+    .cam__desc {
+      color: var(--bone-dim);
+      font-size: 0.94rem;
+      margin: 0 0 var(--s-5);
+      flex: 1;
+    }
+    .cam__links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .cam__links a {
+      border: 0;
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--bone-dim);
+    }
+    .cam__links a:hover {
+      color: var(--amber);
+    }
+
+    /* ---------- RESPONSIVO ---------- */
+    @media (max-width: 900px) {
+      .conc-grid {
+        grid-template-columns: 1fr;
+      }
+      .cam-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 680px) {
+      .marc__link {
+        grid-template-columns: auto 1fr;
+      }
+      .marc__aside {
+        grid-column: 1 / -1;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        margin-top: var(--s-3);
+      }
+      .hero__ghost {
+        display: none;
+      }
+    }
+  </style>
+</Base>

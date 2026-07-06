@@ -1,0 +1,253 @@
+---
+import '@fontsource-variable/fraunces';
+import '@fontsource-variable/newsreader';
+import '@fontsource/space-mono/400.css';
+import '@fontsource/space-mono/700.css';
+import '../styles/tokens.css';
+import '../styles/base.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  active?: string;
+}
+const {
+  title,
+  description = 'Dossiê crítico sobre Big Tech, poder político e vigilância — dos EUA ao Brasil. Versão 3.0.',
+  active = '',
+} = Astro.props;
+
+const nav = [
+  { href: '/forcas', label: 'As forças', key: 'forcas' },
+  { href: '/articulacao', label: 'Articulação', key: 'articulacao' },
+  { href: '/efeitos', label: 'Os efeitos', key: 'efeitos' },
+  { href: '/brasil', label: 'Brasil', key: 'brasil' },
+  { href: '/atores', label: 'Atores', key: 'atores' },
+  { href: '/dossie', label: 'Dossiê', key: 'dossie' },
+];
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{title}</title>
+    <script is:inline>document.documentElement.classList.add('js');</script>
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="shell--wide site-header__inner">
+        <a class="wordmark" href="/" aria-label="Tecnofeudalismo — início">
+          <span class="wordmark__stamp" aria-hidden="true"></span>
+          <span class="wordmark__text">Tecnofeudalismo</span>
+        </a>
+        <nav class="site-nav" aria-label="Seções">
+          {
+            nav.map((n) => (
+              <a
+                href={n.href}
+                class:list={['site-nav__link', { 'is-active': active === n.key }]}
+                aria-current={active === n.key ? 'page' : undefined}
+              >
+                {n.label}
+              </a>
+            ))
+          }
+        </nav>
+        <span class="site-header__ver mono">v3.0 · jul 2026</span>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell--wide site-footer__inner">
+        <div class="site-footer__col">
+          <p class="kicker">Como lemos</p>
+          <p class="site-footer__note">
+            Investigação crítica, não estenográfica. Cada alegação carrega uma
+            tag de confiança; <em>coocorrência não é coordenação</em>. Declaração
+            de empresa é discurso interessado — registro do que o ator quer que
+            se acredite, nunca evidência.
+          </p>
+        </div>
+        <nav class="site-footer__col" aria-label="Rodapé">
+          <p class="kicker kicker--muted">Navegar</p>
+          <a href="/" class="site-footer__link">Início</a>
+          {nav.map((n) => <a href={n.href} class="site-footer__link">{n.label}</a>)}
+          <a href="/linha-do-tempo" class="site-footer__link">Linha do tempo</a>
+          <a href="/briefings" class="site-footer__link">Briefings</a>
+          <a href="/sobre" class="site-footer__link">Fontes e limites</a>
+        </nav>
+        <div class="site-footer__col site-footer__col--meta">
+          <p class="kicker kicker--muted">Registro</p>
+          <p class="site-footer__note">
+            Versão 3.0 · julho de 2026. Fatos posteriores ao corte estão na
+            <a href="/linha-do-tempo">linha do tempo viva</a>. Fontes primárias e
+            imprensa independente; declarações de empresa são confrontadas com o
+            registro.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Reveal escalonado no scroll — respeita prefers-reduced-motion.
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const items = document.querySelectorAll<HTMLElement>('[data-inview]');
+      if (reduce || !('IntersectionObserver' in window)) {
+        items.forEach((el) => el.classList.add('is-inview'));
+      } else {
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              if (e.isIntersecting) {
+                (e.target as HTMLElement).classList.add('is-inview');
+                io.unobserve(e.target);
+              }
+            });
+          },
+          { rootMargin: '0px 0px -12% 0px', threshold: 0.12 }
+        );
+        items.forEach((el) => io.observe(el));
+      }
+    </script>
+
+    <style>
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        backdrop-filter: blur(10px) saturate(120%);
+        background: color-mix(in srgb, var(--ink-900) 82%, transparent);
+        border-bottom: 1px solid var(--rule);
+      }
+      .site-header__inner {
+        display: flex;
+        align-items: center;
+        gap: var(--s-5);
+        min-height: 3.6rem;
+      }
+      .wordmark {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6em;
+        border: 0;
+        color: var(--bone);
+        font-family: var(--font-display);
+        font-variation-settings: 'opsz' 40, 'WONK' 1;
+        font-weight: 560;
+        font-size: 1.12rem;
+        letter-spacing: -0.01em;
+      }
+      .wordmark:hover {
+        color: var(--bone);
+      }
+      .wordmark__stamp {
+        width: 0.7rem;
+        height: 0.7rem;
+        background: var(--signal);
+        border-radius: 1px;
+        box-shadow: 0 0 0 3px rgba(214, 72, 47, 0.18);
+        transform: rotate(-8deg);
+      }
+      .site-nav {
+        display: flex;
+        gap: var(--s-5);
+        margin-left: auto;
+        flex-wrap: wrap;
+      }
+      .site-nav__link {
+        border: 0;
+        font-family: var(--font-mono);
+        font-size: 0.74rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--bone-dim);
+        padding-bottom: 2px;
+        border-bottom: 1px solid transparent;
+      }
+      .site-nav__link:hover {
+        color: var(--bone);
+        border-bottom-color: var(--rule-strong);
+      }
+      .site-nav__link.is-active {
+        color: var(--signal);
+        border-bottom-color: var(--signal);
+      }
+      .site-header__ver {
+        font-size: 0.68rem;
+        color: var(--bone-faint);
+        letter-spacing: 0.04em;
+      }
+
+      .site-footer {
+        margin-top: var(--s-10);
+        border-top: 1px solid var(--rule);
+        background: var(--ink-950);
+        padding: var(--s-8) 0 var(--s-9);
+      }
+      .site-footer__inner {
+        display: grid;
+        grid-template-columns: 1.4fr 0.8fr 1.4fr;
+        gap: var(--s-7);
+      }
+      .site-footer__col {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      .site-footer__note {
+        font-size: 0.92rem;
+        color: var(--bone-dim);
+        line-height: 1.5;
+        max-width: 34ch;
+        margin: 0;
+      }
+      .site-footer__link {
+        border: 0;
+        color: var(--bone-dim);
+        font-size: 0.92rem;
+        width: fit-content;
+      }
+      .site-footer__link:hover {
+        color: var(--amber);
+      }
+
+      @media (max-width: 860px) {
+        .site-header__inner {
+          flex-wrap: wrap;
+          min-height: 0;
+          padding-top: 0.7rem;
+          padding-bottom: 0.7rem;
+          gap: var(--s-3) var(--s-4);
+        }
+        .site-header__ver {
+          display: none;
+        }
+        .site-nav {
+          width: 100%;
+          margin-left: 0;
+          gap: var(--s-4);
+        }
+        .site-footer__inner {
+          grid-template-columns: 1fr;
+          gap: var(--s-6);
+        }
+      }
+    </style>
+  </body>
+</html>
